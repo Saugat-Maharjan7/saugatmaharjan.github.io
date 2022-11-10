@@ -14,29 +14,29 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 250;
-  --sat: 66%;
-  --lig: 75%;
+  --first-hue: 271;
+  --sat: 76%;
+  --lig: 53%;
   --second-hue: 219;
-  --first-color: #3051A0;
-  --first-color-alt: #5922B2;
-  --title-color: white;
-  --text-color: white;
-  --text-color-light: #F9FAFB;
-  --body-color: #1A1A1A;
-  --container-color: #202020;
+  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 49%); /* -4% */
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --text-color-light: hsl(var(--second-hue), 4%, 55%);
+  --body-color: hsl(var(--second-hue), 48%, 8%);
+  --container-color: hsl(var(--second-hue), 32%, 12%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Nunito', sans-serif;
-  --biggest-font-size: 1.75rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
-  --tiny-font-size: .625rem;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.75rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1.5rem;
+  --small-font-size: 1.25rem;
+  --smaller-font-size: 1rem;
+  --tiny-font-size: 0.75rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -124,11 +124,11 @@ img {
 
 /*========== Variables Light theme ==========*/
 body.light-theme{
-  --title-color: white;
-  --text-color: white;
-  --text-color-light: #F9FAFB;
-  --body-color: #ac9aff;
-  --container-color: #bdaefe;
+  --title-color: hsl(var(--second-hue), 15%, 15%);
+  --text-color: hsl(var(--second-hue), 8%, 35%);
+  /* --text-color-light: hsl(var(--second-hue), 4%, 55%); */
+  --body-color: hsl(var(--second-hue), 100%, 99%);
+  --container-color: white;
 }
 
 
@@ -252,7 +252,8 @@ body.light-theme{
 
 .nav__logo{
   color: var(--first-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semibold);
+  font-size: 20px;
   transition: .4s;
 }
 
@@ -263,7 +264,7 @@ body.light-theme{
 .nav__menu{
   position: fixed;
   bottom: 1rem;
-  background-color: #262626;
+  background-color: #1F232B;
   width: 90%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
@@ -336,11 +337,11 @@ font-weight: var(--font-medium);
 }
 
 .home__handle{
+  margin-top: 20px;
   justify-self: center;
   width: 190px;
   height: 220px;
-background: #151821
-;
+background: #070E1B;
 border-radius: 10rem 10rem 1rem 1rem;
 display: flex;
 align-items: flex-end;
@@ -414,8 +415,8 @@ color: white;
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--text-color);
-  font-weight: bolder;
+  color: black;
+  font-weight: 900;
   text-align: center;
   padding: .5rem 1rem;
   border-radius: .5rem;
@@ -424,8 +425,8 @@ color: white;
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
-  color: var(--text-color);
+  background-color: blueviolet;
+  color: white;
 }
 
 .button--ghost{
@@ -705,7 +706,8 @@ transform: translateX(.25rem);
 /* Active item work*/
 .active-work{
   background-color: var(--first-color);
-  color: var(--text-color);
+  color: white;
+  font-weight: bolder;
 }
 
 
@@ -814,7 +816,7 @@ transform: translateX(.25rem);
 
 .footer{
   /* background-color: var(--first-color); */
-  background-color: #262626;
+  background-color: var(--container-color);
 }
 
 .footer__container{
