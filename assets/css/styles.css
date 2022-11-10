@@ -292,6 +292,7 @@ overflow: hidden;
 .home__buttons{
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 1.5rem;
 
 }
@@ -356,7 +357,8 @@ color: white;
   background-color: var(--first-color);
   color: var(--text-color);
   font-weight: bolder;
-  padding: .75rem 1rem;
+  text-align: center;
+  padding: .5rem 1rem;
   border-radius: .5rem;
   font-weight: var(--font-semibold);
   transition: .4s;
