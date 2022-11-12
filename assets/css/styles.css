@@ -127,6 +127,7 @@ body.light-theme{
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
   /* --text-color-light: hsl(var(--second-hue), 4%, 55%); */
+
   --body-color: hsl(var(--second-hue), 100%, 99%);
   --container-color: white;
 }
@@ -415,7 +416,7 @@ color: white;
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: white;
+  color: var(--text-color);
   font-weight: 900;
   text-align: center;
   padding: .5rem 1rem;
