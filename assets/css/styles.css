@@ -396,7 +396,7 @@ color: white;
 .home__scroll{
   color: var(--first-color);
   right: -1.5rem;
-  bottom: 4rem;
+  bottom: 5rem;
   display: grid;
   row-gap: 2.25rem;
   justify-items: center;
@@ -415,7 +415,7 @@ color: white;
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: black;
+  color: white;
   font-weight: 900;
   text-align: center;
   padding: .5rem 1rem;
@@ -425,7 +425,7 @@ color: white;
 }
 
 .button:hover{
-  background-color: blueviolet;
+  background-color: rgb(132, 0, 255);
   color: white;
 }
 
@@ -472,11 +472,14 @@ margin-bottom: .5rem;
 }
 
 .about__title{
-font-size: var(--small-font-size);
+font-size: var(--smaller-font-size);
+color: rgb(212, 212, 212);
+margin-bottom: 8px;
 }
 
 .about__subtitle{
-  font-size: var(--tiny-font-size);
+  font-size: var(--font-medium);
+  color: white;
 }
 
 .about__description{
@@ -533,7 +536,8 @@ font-size: var(--small-font-size);
 }
 
 .skills__level{
-  font-size: var(--tiny-font-size);
+  font-size: var(--small-font-size);
+  color: rgb(212, 212, 212);
 }
 
 /*=============== SERVICES ===============*/
