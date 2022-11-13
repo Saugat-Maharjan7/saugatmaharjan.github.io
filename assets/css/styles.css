@@ -1077,8 +1077,10 @@ font-size: var(--smaller-font-size);
   }
 
   .about__description{
-    padding: 0 4rem 0 0;
+    padding: 0 1rem 0 0;
     margin-bottom: 2.5rem;
+
+    /* color: white; */
   }
 
   .skills__container{
