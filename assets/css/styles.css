@@ -491,14 +491,14 @@ margin-bottom: 8px;
 /*=============== SKILLS ===============*/
 .skills__container{
   row-gap: 2rem;
-  padding-top: 1rem;
-
+  padding-top: 1rem;  
 }
 
 .skills__content{
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 1.25rem;
+  
 }
 
 .skills__title{
@@ -724,6 +724,7 @@ transform: translateX(.25rem);
   row-gap: 3rem;
   padding-bottom: 3rem;
 }
+
 .contact__title{
   text-align: center;
   font-size: var(--h3-font-size);
