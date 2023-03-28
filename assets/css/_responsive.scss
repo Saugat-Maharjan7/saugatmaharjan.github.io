@@ -1,0 +1,1320 @@
+   /*=============== Responsive ===============*/
+   
+.container{
+
+    /* For small devices */
+    @media screen and (max-width : 768px) {
+
+        //Nav Section
+        nav{
+            width: 100%;
+            height: 60px;
+            position: fixed;
+
+            //Inner Nav Container
+            .navContent{
+                padding: 0px 20px;
+
+                //Logo
+                img{
+                    height: 48px;
+                    width: 160px;
+                    }
+            }
+
+            //Tabs
+            .navTabs{
+                display: none;
+            }
+        }
+
+        //Hero Section
+        .heroSection{
+            padding: 0px 20px;
+            margin-top: 80px;
+            height: 100vh;
+
+            //Title Section
+            .titleSection{
+                height: 70vh;
+
+                //Main Heading
+                h1{
+                    width: 80%;
+                    font-size: $font-2xl;
+                }
+
+                //CV Download
+                .downloadCV{
+                    width: 120px;
+                    height: 120px;
+                    bottom: 140px;
+                    right: 20px;
+                    z-index: 998;
+
+                    a{
+                        font-size: $font-base;
+                    }
+                }
+
+                //BG Trianlge Separator
+                .dividerTriangle{
+                    width: 100%;
+                    position: absolute;
+                    bottom: -5px;
+                    z-index: 1;
+    
+                    //Triangle Divider Image
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+            //My Hotline-Bling Image
+            .imageSection{
+                width: auto;
+                margin-top: -420px;
+                z-index: 997;
+
+                .myImg{
+                   width: 280px;
+                }
+            }
+
+            //Tools Use [Text]
+            .toolsUse{
+                visibility: hidden;
+            }
+        }
+
+        //About Section
+        .about{
+            margin: 40px 20px;
+            padding: 20px 0px;
+            overflow: hidden;
+
+            //Main Content
+            .aboutSection{
+                
+                //intro Block
+                .introBlock{
+                    //Heading
+                    .head{
+                        h2{
+                            width: 100%;
+                            font-size: $font-xl;
+                        }
+
+                        .tools{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+                        }
+                    }
+                }
+
+                //About Me Describe Part
+                .aboutMe{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 40px;
+                    padding: 0px;
+
+                    //Mustang-Image
+                    .aboutImage{
+                        display: flex;
+                        width: 100%;
+
+                        //BG Frame
+                        .frameBackground{
+                            width: 90%;
+                            left: 6px;
+                            top: 2px;
+                            border: 4px solid $purple-900;
+
+                        //Actual Photo
+                        .photoPlace{
+                            position: absolute;
+                            width: 100%;
+                            left: 16px;
+                            top: 16px;
+
+                            img{
+                                width: 100%;
+                                object-fit: cover;
+                                height: 400px;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                    }
+
+                    .aboutParagraph{
+                        p{
+                        font-size: $font-base;
+                        font-weight: 400;
+                        }
+                        
+                    }
+                }
+
+                //Statistics
+                .stats{
+                    margin-top: 80px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    // justify-content: space-between;
+                    gap: 20px;
+    
+                    //Experience,Projects,Available
+                    .data{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        
+                        gap: 16px;
+                        padding: 0px;
+                        width: 240px;
+    
+                        //Data Svg
+                        .dataImg{
+                            width: 40px;
+                            height: 40px;
+                        }
+    
+                        //Data Text
+                        .dataInfo{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 0px;
+
+                            h2{
+                                font-size: $font-2xl;
+                            }
+
+                            h5{
+                                font-size: $font-sm;
+                                font-weight: 400;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                //Interest
+                .interest{
+                    width: 100%;
+                    margin-top: 80px;
+
+                    //Intro to Interest
+                    .interestIntro{
+                        p{
+                        font-size: $font-base;
+                        font-weight: 400;
+                        }
+                    }
+
+                    //Interest Icons
+                    .interestIcons{
+                        flex-direction: column;
+                        gap: 40px;
+                        justify-content: space-between;
+
+                        .icons{
+                            width: 40px;
+                            height: 40px;
+
+                            img{
+                                height: 100%;
+                            }
+                        }
+
+                        .iconsRow1{
+                            flex-direction: row;
+                            gap: 40px;
+                            width: 80%;
+                        }
+
+                        .iconsRow2{
+                            flex-direction: row;
+                            gap: 40px;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        //Services Section
+        .services{
+            padding: 40px 20px;
+            overflow: hidden;
+
+             //Services Content
+            .servicesSection{
+                padding: 0px 0px;
+
+                 //Services Intro
+                .servicesIntro{
+                    margin-top: 40px;
+                    width: 90%;
+                    h2{
+                        width: 100%;
+                        font-size: $font-xl;
+                    }
+                }
+
+                //Services Cards Row
+                .servicesCards{
+                    flex-direction: column;
+                    justify-content: none;
+                    padding: 40px 0px;
+                    gap: 20px;
+                    overflow: hidden;
+                    width: 100%;
+
+                    //Card
+                    .cards{
+                        width: fit-content;
+                        padding: 32px;
+
+                        //UI/UX, Web Development, Visual Design
+                        .title{
+
+                            h3{
+                                font-size: $font-lg;
+                            }
+
+                            p{
+                            font-size: $font-base;
+                            font-weight: 400;
+                            min-height: auto;
+                            }
+                        }
+
+                        .toolsService{
+                            h4{
+                                font-size: $font-base;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //Projects Section
+        .projects{
+            padding: 80px 20px;
+            overflow: hidden;
+
+            .grid-projects{
+                flex-direction: column;width: 100%;
+
+                //Project Card
+                .projectCard{
+                    padding: 20px;
+                    width: auto;
+
+                //Project Card Details
+                .projectDetails{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    //Project Heading
+                    .projectTitle{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        h3{
+                            font-size: $font-lg;
+                            width: 100%;
+                        }
+
+                        p{
+                            font-size: $font-sm;
+                        }
+                    }
+
+                    //Show Project
+                    .showProject{
+                        display: flex;
+                        flex-direction: row;
+
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            text-decoration: none;
+                            gap: 8px;
+
+                            h6{
+                                font-family: $proxima;
+                                font-size: $font-base;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 20px;
+                                color: $gray-800;
+                            }
+
+                            //Right-Arrow
+                            svg{
+                                color: $gray-800;
+                            }
+
+                            //Show Project OnHover
+                            &:hover{
+                                h6{
+                                    font-weight: 600;
+                                    color: $purple-500;
+                                }
+                                svg{
+                                    transform: translateX(.25rem);
+                                    color: $purple-500;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                //Project Image
+                .projectImg{
+                    border-radius: 20px;
+                }
+
+            }
+
+                
+                .column-1{
+                    width: 100%;
+
+                    .introBlock{
+                        h4{
+                            text-align: center;
+                        }
+                        .head{
+                            align-items: center;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+
+                            h2{
+                                font-size: $font-2xl;
+                                width: 80%;
+                                text-align: center;
+                                text-transform: capitalize;
+                            }
+    
+                            p{
+                                width: 90%;
+                                font-size: $font-base;
+                                font-weight: 400;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                .column-2{
+                    width: 100%;
+                }
+            }
+        }
+
+        //Contact Section
+        .contact{
+            padding: 20px 0px 60px 0px;
+
+            //My Email
+            .emailMe{
+                .textSection{
+                    h1{
+                        font-size: $font-2xl;
+                        padding-top: 40px;
+                    }
+
+                    p{
+                        font-size: $font-base;
+                    }
+                }
+            }
+
+            //Social Connections
+            .sayHi{
+                .socailButton{
+                    flex-direction: column;
+                }
+            }
+        }
+
+        //Footer Section
+        .footer{
+
+            //Footer Content
+            .footerContent{
+
+                //Line Divider
+                .footerDivider{
+                    width: 100%;
+                }
+
+                //Copyright
+                h6{
+                font-size: $font-xs;
+                font-weight: 300;
+                text-align: center;
+                }
+
+            }
+        }
+
+    }
+
+    /* For tablet and medium devices */
+    // min-width576pxto1279px
+    // @media screen and (max-width : 992px) {
+    //     //Nav Section
+    //     nav{
+    //         width: 100%;
+    //         height: 60px;
+    //         position: fixed;
+
+    //         //Inner Nav Container
+    //         .navContent{
+    //             padding: 0px 40px;
+
+    //             //Logo
+    //             img{
+    //                 height: 48px;
+    //                 width: 160px;
+    //                 }
+    //         }
+
+    //         //Tabs
+    //     }
+
+    //     //Hero Section
+    //     .heroSection{
+    //         padding: 0px 20px;
+    //         margin-top: 80px;
+    //         height: 100vh;
+
+    //         //Title Section
+    //         .titleSection{
+    //             height: 70vh;
+
+    //             //Main Heading
+    //             h1{
+    //                 width: 70%;
+    //                 font-size: $font-2xl;
+    //             }
+
+    //             //CV Download
+    //             .downloadCV{
+    //                 width: 120px;
+    //                 height: 120px;
+    //                 bottom: 60px;
+    //                 right: 20px;
+    //                 z-index: 998;
+
+    //                 a{
+    //                     font-size: $font-base;
+    //                 }
+    //             }
+
+    //             //BG Trianlge Separator
+    //             .dividerTriangle{
+    //                 width: 100%;
+    //                 position: absolute;
+    //                 bottom: -5px;
+    //                 z-index: 1;
+    
+    //                 //Triangle Divider Image
+    //                 img{
+    //                     width: 100%;
+    //                 }
+    //             }
+    //         }
+
+    //         //My Hotline-Bling Image
+    //         .imageSection{
+    //             width: auto;
+    //             margin-top: -420px;
+    //             z-index: 997;
+
+    //             .myImg{
+    //                width: 280px;
+    //             }
+    //         }
+
+    //         //Tools Use [Text]
+    //         .toolsUse{
+    //             visibility: hidden;
+    //         }
+    //     }
+
+    //     //About Section
+    //     .about{
+    //         margin: 40px 20px;
+    //         padding: 20px 0px;
+    //         overflow: hidden;
+
+    //         //Main Content
+    //         .aboutSection{
+                
+    //             //intro Block
+    //             .introBlock{
+    //                 //Heading
+    //                 .head{
+    //                     h2{
+    //                         width: 80%;
+    //                         font-size: $font-xl;
+    //                     }
+
+    //                     .tools{
+    //                         display: flex;
+    //                         flex-direction: row;
+    //                         gap: 16px;
+    //                     }
+    //                 }
+    //             }
+
+    //             //About Me Describe Part
+    //             .aboutMe{
+    //                 display: flex;
+    //                 flex-direction: column;
+    //                 margin-top: 40px;
+    //                 padding: 0px;
+
+    //                 //Mustang-Image
+    //                 .aboutImage{
+    //                     display: flex;
+    //                     width: 100%;
+    //                     justify-content: center;
+
+    //                 //     //BG Frame
+    //                 //     .frameBackground{
+    //                 //         width: 90%;
+    //                 //         left: 6px;
+    //                 //         top: 2px;
+    //                 //         border: 4px solid $purple-900;
+
+    //                 //     //Actual Photo
+    //                 //     .photoPlace{
+    //                 //         position: absolute;
+    //                 //         width: 100%;
+    //                 //         left: 16px;
+    //                 //         top: 16px;
+
+    //                 //         img{
+    //                 //             width: 100%;
+    //                 //             object-fit: cover;
+    //                 //             height: 400px;
+    //                 //             overflow: hidden;
+    //                 //         }
+    //                 //     }
+    //                 // }
+    //                 }
+
+    //                 .aboutParagraph{
+    //                     p{
+    //                     font-size: $font-base;
+    //                     font-weight: 400;
+    //                     }
+                        
+    //                 }
+    //             }
+
+    //             //Statistics
+    //             .stats{
+    //                 margin-top: 80px;
+    //                 width: 100%;
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 // justify-content: space-between;
+    //                 gap: 20px;
+    
+    //                 //Experience,Projects,Available
+    //                 .data{
+    //                     display: flex;
+    //                     flex-direction: column;
+    //                     align-items: center;
+                        
+    //                     gap: 16px;
+    //                     padding: 0px;
+    //                     width: 240px;
+    
+    //                     //Data Svg
+    //                     .dataImg{
+    //                         width: 40px;
+    //                         height: 40px;
+    //                     }
+    
+    //                     //Data Text
+    //                     .dataInfo{
+    //                         display: flex;
+    //                         flex-direction: column;
+    //                         align-items: center;
+    //                         padding: 0px;
+
+    //                         h2{
+    //                             font-size: $font-2xl;
+    //                         }
+
+    //                         h5{
+    //                             font-size: $font-sm;
+    //                             font-weight: 400;
+    //                             text-align: center;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+
+    //             //Interest
+    //             .interest{
+    //                 width: 100%;
+    //                 margin-top: 80px;
+
+    //                 //Intro to Interest
+    //                 .interestIntro{
+    //                     p{
+    //                     font-size: $font-base;
+    //                     font-weight: 400;
+    //                     }
+    //                 }
+
+    //                 //Interest Icons
+    //                 .interestIcons{
+    //                     flex-direction: column;
+    //                     gap: 40px;
+    //                     justify-content: space-between;
+
+    //                     .icons{
+    //                         width: 40px;
+    //                         height: 40px;
+
+    //                         img{
+    //                             height: 100%;
+    //                         }
+    //                     }
+
+    //                     .iconsRow1{
+    //                         flex-direction: row;
+    //                         gap: 40px;
+    //                         width: 80%;
+    //                     }
+
+    //                     .iconsRow2{
+    //                         flex-direction: row;
+    //                         gap: 40px;
+    //                         justify-content: center;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+
+    //     //Services Section
+    //     .services{
+    //         padding: 40px 20px;
+    //         overflow: hidden;
+
+    //          //Services Content
+    //         .servicesSection{
+    //             padding: 0px 0px;
+
+    //              //Services Intro
+    //             .servicesIntro{
+    //                 margin-top: 40px;
+    //                 width: 90%;
+    //                 h2{
+    //                     width: 100%;
+    //                     font-size: $font-xl;
+    //                 }
+    //             }
+
+    //             //Services Cards Row
+    //             .servicesCards{
+    //                 flex-direction: column;
+    //                 justify-content: none;
+    //                 padding: 40px 0px;
+    //                 gap: 20px;
+    //                 overflow: hidden;
+    //                 width: 100%;
+                    
+
+    //                 //Card
+    //                 .cards{
+    //                     width: 50%;
+    //                     padding: 32px;
+
+    //                     //UI/UX, Web Development, Visual Design
+    //                     .title{
+
+    //                         h3{
+    //                             font-size: $font-lg;
+    //                         }
+
+    //                         p{
+    //                         font-size: $font-base;
+    //                         font-weight: 400;
+    //                         min-height: auto;
+    //                         }
+    //                     }
+
+    //                     .toolsService{
+    //                         h4{
+    //                             font-size: $font-base;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+
+
+    // }
+
+    /* For small screens devices */
+    @media screen and (min-width : 993px) {
+
+        //Hero Section
+        .heroSection{
+            margin-top: 120px;
+
+            //Title Section
+            .titleSection{
+
+                h1{
+                    width: 50%;
+                    font-size: $font-2xl;
+                }
+
+            }
+
+            //Tools I Use
+            .toolsUse{
+                .tools{
+                    padding: 0px 24px;
+                    display: flex;
+                    gap: 20px;
+
+                    .tool{
+                        h6{
+                            font-size: $font-sm;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        //About Section
+        .about{
+    
+            //Main Content
+            .aboutSection{
+
+    
+                //About Me Describe Part
+                .aboutMe{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 80px;
+                    padding: 0px 80px;
+                    justify-content: space-between;
+                    gap: 80px;
+                    align-items: center;
+    
+                    //Mustang-Image
+                    .aboutImage{
+                        width: 400px;
+                        height: 400px;
+    
+                        //BG Frame
+                        .frameBackground{
+                            box-sizing: border-box;
+                            position: relative;
+                            width: 400px;
+                            height: 400px;
+                            left: 2px;
+                            top: 2px;
+                            border: 4px solid $purple-900;
+    
+                            //Actual Photo
+                            .photoPlace{
+                                position: absolute;
+                                width: 400px;
+                                height: 400px;
+                                left: 20px;
+                                top: 20px;
+                            }
+                        }
+                    }
+                }
+    
+                //Statistics
+                .stats{
+                    margin-top: 120px;
+                    width: 70%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+    
+                    //Experience,Projects,Available
+                    .data{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0px 8px;
+                        gap: 24px;
+    
+                        //Data Svg
+                        .dataImg{
+                            width: 64px;
+                            height: 64px;
+                        }
+    
+                        //Data Text
+                        .dataInfo{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            padding: 0px;
+                        }
+                    }
+                }
+    
+                //Interest
+                .interest{
+                    margin-top: 120px;
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    text-align: center;
+                    align-items: center;
+    
+                    //Intro to Interest
+                    .interestIntro{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                    }
+    
+                    //Interest Icons
+                    .interestIcons{
+                        display: flex;
+                        gap: 80px;
+    
+                        .iconsRow1{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 80px;
+                        }
+    
+                        .iconsRow2{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 80px;
+                        }
+    
+                    }
+                }
+    
+            }
+        }
+
+        //Services Section
+        .services{
+
+             //Services Content
+            .servicesSection{
+
+                //Services Cards Row
+                .servicesCards{
+
+                    //Card
+                    .cards{
+                        width: fit-content;
+                        padding: 32px;
+
+                        //UI/UX, Web Development, Visual Design
+                        .title{
+
+                            h3{
+                                font-size: $font-lg;
+                            }
+
+                            p{
+                            font-size: $font-sm;
+                            font-weight: 400;
+                            min-height: auto;
+                            }
+                        }
+
+                        .toolsService{
+                            h4{
+                                font-size: $font-base;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    /* For laptop screens devices */
+    @media screen and (min-width : 1400px) {
+        //Hero Section
+        .heroSection{
+            margin-top: 120px;
+
+            //Title Section
+            .titleSection{
+
+                h1{
+                    width: 50%;
+                    font-size: $font-3xl;
+                }
+
+            }
+
+            //Tools I Use
+            .toolsUse{
+                .tools{
+                    padding: 0px 24px;
+                    display: flex;
+                    gap: 20px;
+
+                    .tool{
+                        h6{
+                            font-size: $font-sm;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        
+        //Services Section
+        .services{
+
+            //Services Content
+           .servicesSection{
+
+               //Services Cards Row
+               .servicesCards{
+
+                   //Card
+                   .cards{
+                       width: fit-content;
+                       padding: 32px;
+
+                       //UI/UX, Web Development, Visual Design
+                       .title{
+
+                           h3{
+                               font-size: $font-lg;
+                           }
+
+                           p{
+                           font-size: $font-base;
+                           font-weight: 400;
+                           min-height: auto;
+                           }
+                       }
+
+                       .toolsService{
+                           h4{
+                               font-size: $font-base;
+                           }
+                       }
+                   }
+               }
+           }
+       }
+    }
+
+    /* For large devices */
+    @media screen and (min-width : 1920px) {
+
+        //Nav Section
+        nav{
+            width: 100%;
+            height: 80px;
+
+            .navContent{
+                padding: 0px 192px;
+            }
+        }
+
+        //Hero Section
+        .heroSection{
+            padding: 0px 192px;
+            margin-top: 120px;
+
+            //Title Section
+            .titleSection{
+
+                h1{
+                    width: 70%;
+                    font-size: $font-5xl;
+                }
+
+            }
+
+            //Tools I Use
+            .toolsUse{
+                .tools{
+                    padding: 0px 32px;
+                    display: flex;
+                    gap: 40px;
+
+                    .tool{
+                        h6{
+                            font-size: $font-lg;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        //About Section
+        .about{
+            padding: 0px 192px;
+            margin: 240px 0px;
+            overflow: hidden;
+
+            //Main Content
+            .aboutSection{
+                
+                //intro Block
+                .introBlock{
+                    //Heading
+                    .head{
+                        h2{
+                            width: 40%;
+                            font-size: $font-4xl;
+                        }
+
+                        .tools{
+                            display: flex;
+                            gap: 80px;
+
+                            .tool{
+                                h6{
+                                    font-size: $font-lg;
+                                }
+                                
+                            }
+                            
+                        }
+                    }
+                }
+
+                //About Me Describe Part
+                .aboutMe{
+                    padding: 0px 132px;
+                }
+
+                //Statistics
+                .stats{
+                    padding: 0px 128px;
+    
+                    //Experience,Projects,Available
+                    .data{
+    
+                        //Data Text
+                        .dataInfo{
+
+                            h2{
+                                font-size: $font-4xl;
+                            }
+
+                            h5{
+                                font-size: $font-base;
+                                font-weight: 500;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        //Services Section
+        .services{
+            padding: 80px 192px;
+
+             //Services Content
+             .servicesSection{
+
+                //Services Cards Row
+                .servicesCards{
+
+                    //Card
+                    .cards{
+                        width: fit-content;
+                        padding: 32px;
+
+                        //UI/UX, Web Development, Visual Design
+                        .title{
+
+                            h3{
+                                font-size: $font-2xl;
+                            }
+
+                            p{
+                            font-size: $font-lg;
+                            font-weight: 400;
+                            min-height: 165px;
+                            }
+                        }
+
+                        .toolsService{
+                            h4{
+                                font-size: $font-xl;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //Project Section
+        .projects{
+            padding: 160px 224px;
+    
+            // Project Dividing 2 Parts
+            .grid-projects{
+    
+                // Left Side
+                .column-1{
+    
+                    //Project Introduction
+                    .introBlock{
+                        .head{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 16px;
+    
+                            h2{
+                                font-size: $font-4xl;
+                                width: 90%;
+                                text-align: left;
+                                text-transform: capitalize;
+                            }
+    
+                            p{
+                                width: 90%;
+                            }
+                        }
+                    }
+    
+                }
+
+                //Project Card
+            .projectCard{
+                display: flex;
+                flex-direction: column;
+                border-radius: 20px;
+                padding: 40px;
+                width: auto;
+                gap: 24px;
+
+                //Project Card Details
+                .projectDetails{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    //Project Heading
+                    .projectTitle{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        h3{
+                            width: 100%;
+                        }
+                    }
+
+                    //Show Project
+                    .showProject{
+                        display: flex;
+                        flex-direction: row;
+
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            text-decoration: none;
+                            gap: 8px;
+
+                            h6{
+                                font-family: $proxima;
+                                font-size: $font-lg;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 20px;
+                                color: $gray-800;
+                            }
+
+                            //Right-Arrow
+                            svg{
+                                color: $gray-800;
+                            }
+
+                            //Show Project OnHover
+                            &:hover{
+                                h6{
+                                    font-weight: 600;
+                                    color: $purple-500;
+                                }
+                                svg{
+                                    transform: translateX(.25rem);
+                                    color: $purple-500;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                //Project Image
+                .projectImg{
+                    display: flex;
+                    width: 100%;
+                    height: 315px;
+                    overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        opacity: 0.9;
+                    }
+                }
+
+                //Project Card OnHover
+                &:hover{
+                    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+                    img{
+                        opacity: 1;
+                    }
+                }
+
+            }
+            }
+        }
+
+    }
+
+}

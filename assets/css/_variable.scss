@@ -1,0 +1,70 @@
+
+/*=============== COLORS ===============*/
+
+//Neutral
+$black: #111111;
+$white: #FFFFFF;
+
+//Gray
+$gray-50:  #F9FAFB;
+$gray-100: #F3F4F6;
+$gray-200: #E5E7EB;
+$gray-300: #D1D5DB;
+$gray-400: #9CA3AF;
+$gray-500: #6B7280;
+$gray-600: #4B5563;
+$gray-700: #374151;
+$gray-800: #1F2937;
+$gray-900: #111827;
+
+//Primary
+$purple-50:  #EFE7FF;
+$purple-100: #E1D2FF;
+$purple-200: #CEB6FF;
+$purple-300: #B197E8;
+$purple-400: #9A80D0;
+$purple-500: #7F63B9;
+$purple-600: #6E54A3;
+$purple-700: #523D7C;
+$purple-800: #3E2D61;
+$purple-900: #2C1F47;
+
+//Secondary
+$teal-50:  #DDFFFA;
+$teal-100: #C3FCF3;
+$teal-200: #ADEFE5;
+$teal-300: #9EE5DA;
+$teal-400: #7DCDC0;
+$teal-500: #63B9AB;
+$teal-600: #57AC9E;
+$teal-700: #4CA394;
+$teal-800: #368578;
+$teal-900: #296B60;
+
+//Logo-Color
+$logo-purple: #A855F7;
+$logo-orange: #FF522A;
+$logo-sky:    #00C7E7;
+
+
+
+/*=============== TYPOGRAPHY ===============*/
+
+//font-size
+$font-xs: 0.75rem;
+$font-sm: 0.875rem;
+$font-base: 1rem;
+$font-lg: 1.125rem;
+$font-xl: 1.25rem;
+$font-2xl: 1.5rem;
+$font-3xl: 1.875rem;
+$font-4xl: 2.25rem;
+$font-5xl: 3rem;
+$font-6xl: 3.75rem;
+$font-7xl: 4.5rem;
+$font-8xl: 6rem;
+$font-9xl: 8rem;
+
+//font-style
+$sentient: 'Sentient', serif;
+$proxima: 'Proxima Nova', sans-serif;

@@ -1,0 +1,1325 @@
+/*=============== COLORS ===============*/
+/*=============== TYPOGRAPHY ===============*/
+/*=============== UNIVERSAL ===============*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*=============== BODY PROPERTIES ===============*/
+body {
+  font-family: "Sentient", serif;
+  font-family: "Proxima Nova", sans-serif;
+  overflow-x: hidden;
+}
+
+/*=============== HEADINGS ===============*/
+h1 {
+  font-family: "Sentient", serif;
+  font-size: 2.25rem;
+  line-height: 160%;
+  padding-top: 80px;
+  text-align: center;
+  color: #111111;
+}
+
+h2 {
+  font-family: "Sentient", serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  line-height: 160%;
+  text-align: center;
+  color: #111111;
+}
+
+h3 {
+  font-family: "Sentient", serif;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-family: "Sentient", serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+h5 {
+  font-family: "Sentient", serif;
+  font-size: 1rem;
+}
+
+h6 {
+  font-family: "Sentient", serif;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+/*=============== Paragraphs ===============*/
+p {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #1F2937;
+}
+
+/*=============== Tools ===============*/
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.tools .tool {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: #E5E7EB;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6B7280;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #374151;
+}
+
+/*=============== SCROLLBAR ===============*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*=============== COLORS ===============*/
+/*=============== TYPOGRAPHY ===============*/
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+  /*=============== NAV SECTION ===============*/
+  /*=============== HERO SECTION ===============*/
+  /*=============== ABOUT SECTION ===============*/
+  /*=============== SERVICES SECTION ===============*/
+  /*=============== PROJECTS SECTION ===============*/
+  /*=============== CONTACT SECTION ===============*/
+  /*=============== FOOTER ===============*/
+}
+.container nav {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #F3F4F6;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.container nav .navContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0px 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+.container nav .navContent img {
+  height: 64px;
+  width: 212px;
+}
+.container nav .navContent .navTabs a {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #111111;
+  width: 130px;
+  padding: 10px 20px;
+}
+.container nav .navContent .navTabs a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.container .heroSection {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  margin-top: 120px;
+  padding: 0px 120px;
+  align-items: center;
+}
+.container .heroSection .titleSection {
+  display: flex;
+  width: 100%;
+  height: 75vh;
+  background-color: #CEB6FF;
+  border: 1px solid #111111;
+  justify-content: center;
+  position: relative;
+}
+.container .heroSection .titleSection .paperBG {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.container .heroSection .titleSection h1 {
+  width: 60%;
+  position: absolute;
+}
+.container .heroSection .titleSection .socialMedias {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 16px;
+  left: 24px;
+  bottom: 64px;
+}
+.container .heroSection .titleSection .socialMedias .media {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.container .heroSection .titleSection .socialMedias .media:hover {
+  width: 32px;
+  height: 32px;
+  box-shadow: -1px 1px 6px rgb(142, 54, 196);
+}
+.container .heroSection .titleSection .downloadCV {
+  bottom: 80px;
+  right: 64px;
+  display: flex;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: #DDFFFA;
+  border-radius: 999px;
+  border: 1px solid #296B60;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 6px 2px rgba(52, 116, 106, 0.3);
+}
+.container .heroSection .titleSection .downloadCV:hover {
+  background-color: #C3FCF3;
+  box-shadow: -2px 6px 2px rgba(52, 116, 106, 0.5);
+}
+.container .heroSection .titleSection .downloadCV a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-family: "Sentient", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #2C1F47;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-18.94deg);
+}
+.container .heroSection .titleSection .dividerTriangle {
+  width: 100%;
+  position: absolute;
+  bottom: -4px;
+  z-index: 1;
+}
+.container .heroSection .titleSection .dividerTriangle img {
+  width: 100%;
+}
+.container .heroSection .imageSection {
+  display: flex;
+  margin-top: -500px;
+  z-index: 998;
+}
+.container .heroSection .imageSection .myImg {
+  margin-top: 240px;
+}
+.container .heroSection .toolsUse {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: -186px;
+  justify-content: space-between;
+  padding: 0px 180px;
+}
+.container .heroSection .toolsUse .tools {
+  padding: 0px 24px;
+}
+.container .about {
+  margin: 80px 0px;
+  padding: 160px 120px;
+}
+.container .about .aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .about .aboutSection .introBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.container .about .aboutSection .introBlock .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+}
+.container .about .aboutSection .introBlock .head h2 {
+  width: 40%;
+}
+.container .about .aboutSection .aboutMe {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  padding: 0px 80px;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: center;
+}
+.container .about .aboutSection .aboutMe .aboutImage {
+  width: 400px;
+  height: 400px;
+}
+.container .about .aboutSection .aboutMe .aboutImage .frameBackground {
+  box-sizing: border-box;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  left: 2px;
+  top: 2px;
+  border: 4px solid #2C1F47;
+}
+.container .about .aboutSection .aboutMe .aboutImage .frameBackground .photoPlace {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 20px;
+  top: 20px;
+}
+.container .about .aboutSection .stats {
+  margin-top: 120px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .about .aboutSection .stats .data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 8px;
+  gap: 24px;
+}
+.container .about .aboutSection .stats .data .dataImg {
+  width: 64px;
+  height: 64px;
+}
+.container .about .aboutSection .stats .data .dataInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+.container .about .aboutSection .interest {
+  margin-top: 120px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.container .about .aboutSection .interest .interestIntro {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .about .aboutSection .interest .interestIcons {
+  display: flex;
+  gap: 80px;
+}
+.container .about .aboutSection .interest .interestIcons .iconsRow1 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.container .about .aboutSection .interest .interestIcons .iconsRow2 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.container .services {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 120px;
+  background-color: #EFE7FF;
+  align-items: center;
+  justify-content: center;
+}
+.container .services .servicesSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.container .services .servicesSection .servicesIntro {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.container .services .servicesSection .servicesCards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 80px 80px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container .services .servicesSection .servicesCards .cards {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  width: 25%;
+  background-color: #FFFFFF;
+  gap: 32px;
+  isolation: isolate;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+.container .services .servicesSection .servicesCards .cards .title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .services .servicesSection .servicesCards .cards .title h3 {
+  text-transform: uppercase;
+}
+.container .services .servicesSection .servicesCards .cards .title p {
+  min-height: 216px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 150%;
+  /* or 27px */
+  letter-spacing: 0.02em;
+  color: #374151;
+}
+.container .services .servicesSection .servicesCards .cards .toolsService {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .services .servicesSection .servicesCards .cards .toolsService h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #111111;
+}
+.container .services .servicesSection .servicesCards .cards .toolsService .toolsRow {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.container .services .servicesSection .servicesCards .cards .toolsService .toolsRow .toolsStack {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+.container .services .servicesSection .servicesCards .cards .toolsService .toolsRow .toolsStack .toolsImg img {
+  width: 40px;
+  height: 40px;
+}
+.container .services .servicesSection .servicesCards .cards .toolsService .toolsRow .toolsStack p {
+  font-size: 0.75rem;
+}
+.container .services .servicesSection .servicesCards .cards:hover {
+  background-color: #FFFFFF;
+  background-image: url("../src/images/Services-Cards/Hover.png");
+  background-size: cover;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+.container .projects {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 160px;
+  background-color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+}
+.container .projects .grid-projects {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container .projects .grid-projects .column-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container .projects .grid-projects .column-1 .introBlock .head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .projects .grid-projects .column-1 .introBlock .head h2 {
+  width: 90%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.container .projects .grid-projects .column-1 .introBlock .head p {
+  width: 90%;
+}
+.container .projects .grid-projects .column-1 .evenProjects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.container .projects .grid-projects .projectCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 40px;
+  width: auto;
+  gap: 24px;
+}
+.container .projects .grid-projects .projectCard .projectDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .projects .grid-projects .projectCard .projectDetails .projectTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .projects .grid-projects .projectCard .projectDetails .projectTitle h3 {
+  width: 100%;
+}
+.container .projects .grid-projects .projectCard .projectDetails .showProject {
+  display: flex;
+  flex-direction: row;
+}
+.container .projects .grid-projects .projectCard .projectDetails .showProject a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 8px;
+}
+.container .projects .grid-projects .projectCard .projectDetails .showProject a h6 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: #1F2937;
+}
+.container .projects .grid-projects .projectCard .projectDetails .showProject a svg {
+  color: #1F2937;
+}
+.container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
+  font-weight: 600;
+  color: #7F63B9;
+}
+.container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
+  transform: translateX(0.25rem);
+  color: #7F63B9;
+}
+.container .projects .grid-projects .projectCard .projectImg {
+  display: flex;
+  width: 100%;
+  height: 315px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.container .projects .grid-projects .projectCard .projectImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
+}
+.container .projects .grid-projects .projectCard:hover {
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+.container .projects .grid-projects .projectCard:hover img {
+  opacity: 1;
+}
+.container .projects .grid-projects .project1 {
+  background-color: #67E8F9;
+}
+.container .projects .grid-projects .project2 {
+  background-color: #86EFAC;
+}
+.container .projects .grid-projects .project3 {
+  background-color: #F0ABFC;
+}
+.container .projects .grid-projects .project4 {
+  background-color: #FDBA74;
+}
+.container .projects .grid-projects .project5 {
+  background-color: #FDE047;
+}
+.container .projects .grid-projects .project6 {
+  background-color: #A5B4FC;
+}
+.container .projects .grid-projects .column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}
+.container .contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #DDFFFA;
+  padding: 60px 160px 200px 160px;
+  align-items: center;
+  gap: 80px;
+}
+.container .contact .emailMe {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.container .contact .emailMe .textSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.container .contact .emailMe .textSection p {
+  text-align: center;
+}
+.container .contact .sayHi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.container .contact .sayHi h2 {
+  font-weight: normal;
+  text-align: center;
+}
+.container .contact .sayHi .socailButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.container .contact .linkButton {
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+  overflow: hidden;
+  font-family: "Sentient", serif;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+  border: 1px solid #1F2937;
+  color: #111111;
+}
+.container .contact .linkButton::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  background-color: #7F63B9;
+  width: 100%;
+  left: -100%;
+  transition: ease-in 0.2s;
+}
+.container .contact .linkButton:hover {
+  color: #FFFFFF;
+  border: 1px solid #111111;
+}
+.container .contact .linkButton:hover svg {
+  color: #FFFFFF;
+}
+.container .contact .linkButton:hover::after {
+  left: 0;
+}
+.container .footer {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 80px;
+  background-color: #111827;
+  align-items: center;
+}
+.container .footer .footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.container .footer .footerContent .footerDivider {
+  height: 1px;
+  width: 400px;
+  background-color: #6B7280;
+}
+.container .footer .footerContent h6 {
+  color: #FFFFFF;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
+}
+
+/*=============== Responsive ===============*/
+.container {
+  /* For small devices */
+  /* For tablet and medium devices */
+  /* For small screens devices */
+  /* For laptop screens devices */
+  /* For large devices */
+}
+@media screen and (max-width: 768px) {
+  .container nav {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+  }
+  .container nav .navContent {
+    padding: 0px 20px;
+  }
+  .container nav .navContent img {
+    height: 48px;
+    width: 160px;
+  }
+  .container nav .navTabs {
+    display: none;
+  }
+  .container .heroSection {
+    padding: 0px 20px;
+    margin-top: 80px;
+    height: 100vh;
+  }
+  .container .heroSection .titleSection {
+    height: 70vh;
+  }
+  .container .heroSection .titleSection h1 {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  .container .heroSection .titleSection .downloadCV {
+    width: 120px;
+    height: 120px;
+    bottom: 140px;
+    right: 20px;
+    z-index: 998;
+  }
+  .container .heroSection .titleSection .downloadCV a {
+    font-size: 1rem;
+  }
+  .container .heroSection .titleSection .dividerTriangle {
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    z-index: 1;
+  }
+  .container .heroSection .titleSection .dividerTriangle img {
+    width: 100%;
+  }
+  .container .heroSection .imageSection {
+    width: auto;
+    margin-top: -420px;
+    z-index: 997;
+  }
+  .container .heroSection .imageSection .myImg {
+    width: 280px;
+  }
+  .container .heroSection .toolsUse {
+    visibility: hidden;
+  }
+  .container .about {
+    margin: 40px 20px;
+    padding: 20px 0px;
+    overflow: hidden;
+  }
+  .container .about .aboutSection .introBlock .head h2 {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  .container .about .aboutSection .introBlock .head .tools {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .container .about .aboutSection .aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 0px;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage {
+    display: flex;
+    width: 100%;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage .frameBackground {
+    width: 90%;
+    left: 6px;
+    top: 2px;
+    border: 4px solid #2C1F47;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage .frameBackground .photoPlace {
+    position: absolute;
+    width: 100%;
+    left: 16px;
+    top: 16px;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage .frameBackground .photoPlace img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 400px;
+    overflow: hidden;
+  }
+  .container .about .aboutSection .aboutMe .aboutParagraph p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .container .about .aboutSection .stats {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .container .about .aboutSection .stats .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+    width: 240px;
+  }
+  .container .about .aboutSection .stats .data .dataImg {
+    width: 40px;
+    height: 40px;
+  }
+  .container .about .aboutSection .stats .data .dataInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .container .about .aboutSection .stats .data .dataInfo h2 {
+    font-size: 1.5rem;
+  }
+  .container .about .aboutSection .stats .data .dataInfo h5 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .container .about .aboutSection .interest {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .container .about .aboutSection .interest .interestIntro p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .container .about .aboutSection .interest .interestIcons {
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .container .about .aboutSection .interest .interestIcons .icons {
+    width: 40px;
+    height: 40px;
+  }
+  .container .about .aboutSection .interest .interestIcons .icons img {
+    height: 100%;
+  }
+  .container .about .aboutSection .interest .interestIcons .iconsRow1 {
+    flex-direction: row;
+    gap: 40px;
+    width: 80%;
+  }
+  .container .about .aboutSection .interest .interestIcons .iconsRow2 {
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+  }
+  .container .services {
+    padding: 40px 20px;
+    overflow: hidden;
+  }
+  .container .services .servicesSection {
+    padding: 0px 0px;
+  }
+  .container .services .servicesSection .servicesIntro {
+    margin-top: 40px;
+    width: 90%;
+  }
+  .container .services .servicesSection .servicesIntro h2 {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  .container .services .servicesSection .servicesCards {
+    flex-direction: column;
+    justify-content: none;
+    padding: 40px 0px;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .container .services .servicesSection .servicesCards .cards {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 32px;
+  }
+  .container .services .servicesSection .servicesCards .cards .title h3 {
+    font-size: 1.125rem;
+  }
+  .container .services .servicesSection .servicesCards .cards .title p {
+    font-size: 1rem;
+    font-weight: 400;
+    min-height: auto;
+  }
+  .container .services .servicesSection .servicesCards .cards .toolsService h4 {
+    font-size: 1rem;
+  }
+  .container .projects {
+    padding: 80px 20px;
+    overflow: hidden;
+  }
+  .container .projects .grid-projects {
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .projects .grid-projects .projectCard {
+    padding: 20px;
+    width: auto;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .projectTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .projectTitle h3 {
+    font-size: 1.125rem;
+    width: 100%;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .projectTitle p {
+    font-size: 0.875rem;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject {
+    display: flex;
+    flex-direction: row;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 8px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a h6 {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #1F2937;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a svg {
+    color: #1F2937;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
+    font-weight: 600;
+    color: #7F63B9;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
+    transform: translateX(0.25rem);
+    color: #7F63B9;
+  }
+  .container .projects .grid-projects .projectCard .projectImg {
+    border-radius: 20px;
+  }
+  .container .projects .grid-projects .column-1 {
+    width: 100%;
+  }
+  .container .projects .grid-projects .column-1 .introBlock h4 {
+    text-align: center;
+  }
+  .container .projects .grid-projects .column-1 .introBlock .head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .container .projects .grid-projects .column-1 .introBlock .head h2 {
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .container .projects .grid-projects .column-1 .introBlock .head p {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .container .projects .grid-projects .column-2 {
+    width: 100%;
+  }
+  .container .contact {
+    padding: 20px 0px 60px 0px;
+  }
+  .container .contact .emailMe .textSection h1 {
+    font-size: 1.5rem;
+    padding-top: 40px;
+  }
+  .container .contact .emailMe .textSection p {
+    font-size: 1rem;
+  }
+  .container .contact .sayHi .socailButton {
+    flex-direction: column;
+  }
+  .container .footer .footerContent .footerDivider {
+    width: 100%;
+  }
+  .container .footer .footerContent h6 {
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 993px) {
+  .container .heroSection {
+    margin-top: 120px;
+  }
+  .container .heroSection .titleSection h1 {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+  .container .heroSection .toolsUse .tools {
+    padding: 0px 24px;
+    display: flex;
+    gap: 20px;
+  }
+  .container .heroSection .toolsUse .tools .tool h6 {
+    font-size: 0.875rem;
+  }
+  .container .about .aboutSection .aboutMe {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding: 0px 80px;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage {
+    width: 400px;
+    height: 400px;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage .frameBackground {
+    box-sizing: border-box;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 2px;
+    top: 2px;
+    border: 4px solid #2C1F47;
+  }
+  .container .about .aboutSection .aboutMe .aboutImage .frameBackground .photoPlace {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 20px;
+    top: 20px;
+  }
+  .container .about .aboutSection .stats {
+    margin-top: 120px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container .about .aboutSection .stats .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 24px;
+  }
+  .container .about .aboutSection .stats .data .dataImg {
+    width: 64px;
+    height: 64px;
+  }
+  .container .about .aboutSection .stats .data .dataInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  .container .about .aboutSection .interest {
+    margin-top: 120px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .container .about .aboutSection .interest .interestIntro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .container .about .aboutSection .interest .interestIcons {
+    display: flex;
+    gap: 80px;
+  }
+  .container .about .aboutSection .interest .interestIcons .iconsRow1 {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .container .about .aboutSection .interest .interestIcons .iconsRow2 {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .container .services .servicesSection .servicesCards .cards {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 32px;
+  }
+  .container .services .servicesSection .servicesCards .cards .title h3 {
+    font-size: 1.125rem;
+  }
+  .container .services .servicesSection .servicesCards .cards .title p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    min-height: auto;
+  }
+  .container .services .servicesSection .servicesCards .cards .toolsService h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container .heroSection {
+    margin-top: 120px;
+  }
+  .container .heroSection .titleSection h1 {
+    width: 50%;
+    font-size: 1.875rem;
+  }
+  .container .heroSection .toolsUse .tools {
+    padding: 0px 24px;
+    display: flex;
+    gap: 20px;
+  }
+  .container .heroSection .toolsUse .tools .tool h6 {
+    font-size: 0.875rem;
+  }
+  .container .services .servicesSection .servicesCards .cards {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 32px;
+  }
+  .container .services .servicesSection .servicesCards .cards .title h3 {
+    font-size: 1.125rem;
+  }
+  .container .services .servicesSection .servicesCards .cards .title p {
+    font-size: 1rem;
+    font-weight: 400;
+    min-height: auto;
+  }
+  .container .services .servicesSection .servicesCards .cards .toolsService h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container nav {
+    width: 100%;
+    height: 80px;
+  }
+  .container nav .navContent {
+    padding: 0px 192px;
+  }
+  .container .heroSection {
+    padding: 0px 192px;
+    margin-top: 120px;
+  }
+  .container .heroSection .titleSection h1 {
+    width: 70%;
+    font-size: 3rem;
+  }
+  .container .heroSection .toolsUse .tools {
+    padding: 0px 32px;
+    display: flex;
+    gap: 40px;
+  }
+  .container .heroSection .toolsUse .tools .tool h6 {
+    font-size: 1.125rem;
+  }
+  .container .about {
+    padding: 0px 192px;
+    margin: 240px 0px;
+    overflow: hidden;
+  }
+  .container .about .aboutSection .introBlock .head h2 {
+    width: 40%;
+    font-size: 2.25rem;
+  }
+  .container .about .aboutSection .introBlock .head .tools {
+    display: flex;
+    gap: 80px;
+  }
+  .container .about .aboutSection .introBlock .head .tools .tool h6 {
+    font-size: 1.125rem;
+  }
+  .container .about .aboutSection .aboutMe {
+    padding: 0px 132px;
+  }
+  .container .about .aboutSection .stats {
+    padding: 0px 128px;
+  }
+  .container .about .aboutSection .stats .data .dataInfo h2 {
+    font-size: 2.25rem;
+  }
+  .container .about .aboutSection .stats .data .dataInfo h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .container .services {
+    padding: 80px 192px;
+  }
+  .container .services .servicesSection .servicesCards .cards {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 32px;
+  }
+  .container .services .servicesSection .servicesCards .cards .title h3 {
+    font-size: 1.5rem;
+  }
+  .container .services .servicesSection .servicesCards .cards .title p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    min-height: 165px;
+  }
+  .container .services .servicesSection .servicesCards .cards .toolsService h4 {
+    font-size: 1.25rem;
+  }
+  .container .projects {
+    padding: 160px 224px;
+  }
+  .container .projects .grid-projects .column-1 .introBlock .head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .container .projects .grid-projects .column-1 .introBlock .head h2 {
+    font-size: 2.25rem;
+    width: 90%;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  .container .projects .grid-projects .column-1 .introBlock .head p {
+    width: 90%;
+  }
+  .container .projects .grid-projects .projectCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 40px;
+    width: auto;
+    gap: 24px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .projectTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .projectTitle h3 {
+    width: 100%;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject {
+    display: flex;
+    flex-direction: row;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 8px;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a h6 {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: #1F2937;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a svg {
+    color: #1F2937;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
+    font-weight: 600;
+    color: #7F63B9;
+  }
+  .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
+    transform: translateX(0.25rem);
+    color: #7F63B9;
+  }
+  .container .projects .grid-projects .projectCard .projectImg {
+    display: flex;
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+  }
+  .container .projects .grid-projects .projectCard .projectImg img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 0.9;
+  }
+  .container .projects .grid-projects .projectCard:hover {
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+  .container .projects .grid-projects .projectCard:hover img {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=main.css.map */

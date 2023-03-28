@@ -1,0 +1,771 @@
+@import 'variable';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+
+    /*=============== NAV SECTION ===============*/
+    nav{
+        display: flex;
+        width: 100%;
+        height: 80px;
+        background-color: $white;
+        border-bottom: 1px solid $gray-100;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+
+            //Inner Nav Container
+            .navContent{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 0px 120px;
+            align-items: center;
+            justify-content: space-between;
+
+            //Logo
+                img{
+                height: 64px;
+                width: 212px;
+                }
+        
+                //Tabs
+                .navTabs{
+    
+                    a{
+                        font-family: $proxima;
+                        font-size: $font-base;
+                        text-decoration: none;
+                        color: $black;
+                        width: 130px;
+                        padding: 10px 20px;
+        
+                        &:hover{
+                            text-decoration: underline;
+                            font-weight: 600;
+                                }
+                    }
+                }
+            }
+        }
+
+    /*=============== HERO SECTION ===============*/
+    .heroSection{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        margin-top: 120px;
+        padding: 0px 120px;
+        align-items: center;
+
+        //Title Section
+        .titleSection{
+            display: flex;
+            width: 100%;
+            height: 75vh;
+            background-color: $purple-200;
+            border: 1px solid $black;
+            // overflow: hidden;
+            justify-content: center;
+            position: relative;
+            
+            //BG Paper
+            .paperBG{
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;
+            }
+
+            //Main Heading
+            h1{
+                width: 60%;
+                position: absolute;
+            }
+
+            //Social Media Icons
+            .socialMedias{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                gap: 16px;
+                left: 24px;
+                bottom: 64px;
+
+                .media{
+                    display: flex;
+                    width: 32px;
+                    height: 32px;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 3;
+
+                    &:hover{
+                        width: 32px;
+                        height: 32px;
+                        box-shadow: -1px 1px 6px rgb(142, 54, 196);
+                    }
+                }
+            }
+
+            //CV Download
+            .downloadCV{
+                bottom: 80px;
+                right: 64px;
+                display: flex;
+                position: absolute;
+                width: 180px;
+                height: 180px;
+                background-color: $teal-50;
+                border-radius: 999px;
+                border: 1px solid $teal-900;
+                justify-content: center;
+                align-items: center;
+                box-shadow: -2px 6px 2px rgba(52, 116, 106, 0.3);
+
+                &:hover{
+                    background-color: $teal-100;
+                    box-shadow: -2px 6px 2px rgba(52, 116, 106, 0.5);
+                }
+
+                a{
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    font-family: $sentient;
+                    font-weight: 700;
+                    font-size: $font-2xl;
+                    color: $purple-900;
+                    justify-content: center;
+                    align-items: center;
+                    transform: rotate(-18.94deg);
+                }
+
+            }
+
+            //BG Trianlge Separator
+            .dividerTriangle{
+                width: 100%;
+                position: absolute;
+                bottom: -4px;
+                z-index: 1;
+
+                //Triangle Divider Image
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+
+        //My Hotline-Bling Image
+        .imageSection{
+            display: flex;
+            margin-top: -500px;
+            z-index: 998;
+
+            .myImg{
+                margin-top: 240px;
+            }
+        }
+
+        //Tools Use [Text]
+        .toolsUse{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-top: -186px;
+            justify-content: space-between;
+            padding: 0px 180px;
+
+            .tools{
+                padding: 0px 24px;
+            }
+
+        }
+    }
+
+    /*=============== ABOUT SECTION ===============*/
+    .about{
+        margin: 80px 0px;
+        padding: 160px 120px;
+
+        //Main Content
+        .aboutSection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            //Tools Use
+            .introBlock{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+
+                //Heading
+                .head{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    text-transform: capitalize;
+
+                    h2{
+                        width: 40%;
+                    }
+
+                    //Tools Use 'Universal Section'
+                } 
+            }
+
+            //About Me Describe Part
+            .aboutMe{
+                display: flex;
+                flex-direction: row;
+                margin-top: 80px;
+                padding: 0px 80px;
+                justify-content: space-between;
+                gap: 80px;
+                align-items: center;
+
+                //Mustang-Image
+                .aboutImage{
+                    width: 400px;
+                    height: 400px;
+
+                    //BG Frame
+                    .frameBackground{
+                        box-sizing: border-box;
+                        position: relative;
+                        width: 400px;
+                        height: 400px;
+                        left: 2px;
+                        top: 2px;
+                        border: 4px solid $purple-900;
+
+                        //Actual Photo
+                        .photoPlace{
+                            position: absolute;
+                            width: 400px;
+                            height: 400px;
+                            left: 20px;
+                            top: 20px;
+                        }
+                    }
+                }
+            }
+
+            //Statistics
+            .stats{
+                margin-top: 120px;
+                width: 70%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                //Experience,Projects,Available
+                .data{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px 8px;
+                    gap: 24px;
+
+                    //Data Svg
+                    .dataImg{
+                        width: 64px;
+                        height: 64px;
+                    }
+
+                    //Data Text
+                    .dataInfo{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                    }
+                }
+            }
+
+            //Interest
+            .interest{
+                margin-top: 120px;
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                text-align: center;
+                align-items: center;
+
+                //Intro to Interest
+                .interestIntro{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+
+                //Interest Icons
+                .interestIcons{
+                    display: flex;
+                    gap: 80px;
+
+                    .iconsRow1{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 80px;
+                    }
+
+                    .iconsRow2{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 80px;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    /*=============== SERVICES SECTION ===============*/
+    .services{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 120px;
+        background-color: $purple-50;
+        align-items: center;
+        justify-content: center;
+
+        //Services Content
+        .servicesSection{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+
+            //Short Intro
+            .servicesIntro{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                align-items: center;
+                justify-content: center;
+                text-transform: capitalize;
+            }
+
+            //Services Cards Row
+            .servicesCards{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding: 80px 80px;
+                justify-content: space-between;
+                gap: 20px;
+                
+                //Card
+                .cards{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 48px;
+                    width: 25%;
+                    background-color: $white;
+                    gap: 32px;
+                    isolation: isolate;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+
+                    //UI/UX, Web Development, Visual Design
+                    .title{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        //Title
+                        h3{
+                            text-transform: uppercase;
+                        }
+
+                        //brief
+                        p{
+                            min-height: 216px;
+                            font-family: $proxima;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: $font-lg;
+                            line-height: 150%;
+                            /* or 27px */
+                            letter-spacing: 0.02em;
+                            color: $gray-700;
+                        }
+                    }
+
+                    //Tools Icons Section
+                    .toolsService{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        //Tools Heading
+                        h4{
+                            font-size: $font-lg; 
+                            font-weight: 500; 
+                            font-style: normal; 
+                            color: $black;
+                        }
+
+                        //Tools Row
+                        .toolsRow{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 16px;
+
+                            //Tools Stack
+                            .toolsStack{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 6px;
+                                align-items: center;
+    
+                                // Tools Icons
+                                .toolsImg{
+                                    img{
+                                        width: 40px;
+                                        height: 40px;
+                                    }
+    
+                                }
+                                p{
+                                    font-size: $font-xs;
+                                }
+                            }
+                        }
+    
+                    }
+
+                    // Tools Card Hover
+                    &:hover{   
+                        background-color: $white;
+                        background-image: url("../src/images/Services-Cards/Hover.png");
+                        background-size: cover;
+                        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+                    }
+                }
+            }
+        }
+    }
+
+    /*=============== PROJECTS SECTION ===============*/
+    .projects{
+        display: flex;
+        flex-direction: column;
+        padding: 160px 160px;
+        background-color: $white;
+        align-items: center;
+        justify-content: center;
+
+        // Project Dividing 2 Parts
+        .grid-projects{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            gap: 20px;
+
+            // Left Side
+            .column-1{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                gap: 40px;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                //Project Introduction
+                .introBlock{
+                    .head{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        h2{
+                            width: 90%;
+                            text-align: left;
+                            text-transform: capitalize;
+                        }
+
+                        p{
+                            width: 90%;
+                        }
+                    }
+                }
+
+                .evenProjects{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    width: 100%;
+                }
+
+            }
+
+            //Project Card
+            .projectCard{
+                display: flex;
+                flex-direction: column;
+                border-radius: 20px;
+                padding: 40px;
+                width: auto;
+                gap: 24px;
+
+                //Project Card Details
+                .projectDetails{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    //Project Heading
+                    .projectTitle{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        h3{
+                            width: 100%;
+                        }
+                    }
+
+                    //Show Project
+                    .showProject{
+                        display: flex;
+                        flex-direction: row;
+
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            text-decoration: none;
+                            gap: 8px;
+
+                            h6{
+                                font-family: $proxima;
+                                font-size: $font-lg;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 20px;
+                                color: $gray-800;
+                            }
+
+                            //Right-Arrow
+                            svg{
+                                color: $gray-800;
+                            }
+
+                            //Show Project OnHover
+                            &:hover{
+                                h6{
+                                    font-weight: 600;
+                                    color: $purple-500;
+                                }
+                                svg{
+                                    transform: translateX(.25rem);
+                                    color: $purple-500;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                //Project Image
+                .projectImg{
+                    display: flex;
+                    width: 100%;
+                    height: 315px;
+                    overflow: hidden;
+                    border-radius: 20px;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        opacity: 0.9;
+                    }
+                }
+
+                //Project Card OnHover
+                &:hover{
+                    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+                    img{
+                        opacity: 1;
+                    }
+                }
+
+            }
+
+            //Project Card Distinguishing Color
+            .project1{
+                background-color: #67E8F9;
+            }
+
+            .project2{
+                background-color: #86EFAC;
+            }
+
+            .project3{
+                background-color: #F0ABFC;
+            }
+
+            .project4{
+                background-color: #FDBA74;
+            }
+
+            .project5{
+                background-color: #FDE047;
+            }
+
+            .project6{
+                background-color: #A5B4FC;
+            }
+
+            //Right Side
+            .column-2{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                gap: 20px;    
+            }
+        }
+    }
+
+    /*=============== CONTACT SECTION ===============*/
+    .contact{
+        display: flex;
+        flex-direction: column;
+        background-color: $teal-50;
+        padding: 60px 160px 200px 160px;
+        align-items: center;
+        gap: 80px;
+
+        //My Email
+        .emailMe{
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            align-items: center;
+
+            .textSection{  
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+    
+                p{
+                    text-align: center;
+                }
+            }
+
+        }
+
+        //Social Connections
+        .sayHi{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+
+            h2{
+                font-weight: normal;
+                text-align: center;
+            }
+
+            .socailButton{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 32px;
+            }
+        }
+
+        //Link to Button
+        .linkButton{
+            position: relative;
+            background-color: transparent;
+            z-index: 2;
+            overflow: hidden;
+            font-family: $sentient;
+
+            //LinkButton OnHover
+            &::after{
+                content: "";
+                z-index: -1;
+                position: absolute;
+                height: 100%;
+                background-color: $purple-500;
+                width: 100%;
+                left:-100%;
+                transition: ease-in .2s ;     
+            }
+
+            display: flex;
+            flex-direction: row;
+            padding: 16px 32px;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            text-decoration: none;
+            border: 1px solid $gray-800;
+            color: $black;
+
+            &:hover{
+
+                color: $white;
+                border: 1px solid $black;
+
+                svg{
+                    color: $white;
+                }
+
+                &::after{
+                    left:0;
+                    
+                }
+            }
+        }
+    }
+
+    /*=============== FOOTER ===============*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 48px 80px;
+        background-color: $gray-900;
+        align-items: center;
+
+        //Footer Content
+        .footerContent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+
+            //Line Divider
+            .footerDivider{
+                height: 1px;
+                width: 400px;
+                background-color: $gray-500;
+            }
+
+            //Copyright
+            h6{
+                color: $white;
+                font-weight: 400;
+                text-align: center;
+                line-height: 150%;
+            }
+        }
+    }
+
+}
