@@ -1,100 +1,147 @@
 /*=============== Responsive CaseStudy ===============*/
 
 .container{
+    
     /* For small devices */
     @media screen and (max-width : 768px) {
 
-        //Content Section
-        .projectContent{
-            h3{
-                font-size: $font-lg; 
-            }
-    
-            //Project Overview
-            .projectOverview{
-                padding: 40px 20px; 
-                gap: 16px;
-    
-                //Title
-                .projectTitle{
-                    h2{
-                        font-size: $font-xl;
-                    }
+        /*=============== OVERVIEW ===============*/
+            //Common Heading
+            .overviewSection{
+                display:flex; 
+                flex-direction: column;
+                gap: 8px;
+        
+                h3{
+                    font-size: $font-lg; 
                 }
-    
-                //Overview Block
-                .overview{
-                    gap: 16px;
-    
-                    //Overview Description
-                    .overviewSection{
-                        display:flex; 
-                        flex-direction: column;
-                        gap: 8px;
-                    }
-    
-                    //Roles, Duration, Tools
-                    .overviewRow{
-                        display: flex; 
-                        flex-direction: column; 
-                        gap: 16px;
-    
-                        .eachOverviewRow{
-                            display: flex;
-                            flex-direction: column;
-                            gap: 16px;
-    
-                            .subOverviewRow{
-                                display:flex; 
-                                flex-direction: column; 
-                                gap: 8px; 
-                                width: 100%;
-                            }
+            }
+
+            //Overview Section
+            .projectContent{
+
+                //Thumnail Image
+                .thumbnail{
+                    height: 320px;
+
+                    img{
+                        display: flex;
+                        width: auto;
+                        height: 100%;
+                    } 
+                }
+        
+                //Project Overview
+                .projectOverview{
+                    padding: 40px 20px; 
+                    gap: 32px;
+        
+                    //Title
+                    .projectTitle{
+                        h2{
+                            font-size: $font-xl;
                         }
                     }
-    
-                    //Show Project
-                    .showProject{
-                        display: flex;
-                        flex-direction: row;
-    
-                        a{
+        
+                    //Overview Block
+                    .overview{
+        
+                        //Overview Description
+                        .overviewSection{
+                            gap: 4px;
+                        }
+        
+                        //Roles, Duration, Tools
+                        .overviewRow{
+        
+                            .eachOverviewRow{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 20px;
+        
+                                .subOverviewRow{
+                                    gap: 4px; 
+                                    width: 100%;
+                                }
+                            }
+                        }
+        
+                        //Show Project
+                        .showProject{
                             display: flex;
                             flex-direction: row;
-                            text-decoration: none;
-                            gap: 8px;
-    
-                            h6{
-                                font-family: $proxima;
-                                font-size: $font-lg;
-                                font-style: normal;
-                                font-weight: 600;
-                                line-height: 20px;
-                                color: $gray-800;
-                            }
-    
-                            //Right-Arrow
-                            svg{
-                                color: $gray-800;
-                            }
-    
-                            //Show Project OnHover
-                            &:hover{
+        
+                            a{
+                                display: flex;
+                                flex-direction: row;
+                                text-decoration: none;
+                                gap: 8px;
+        
                                 h6{
+                                    font-family: $proxima;
+                                    font-size: $font-lg;
+                                    font-style: normal;
                                     font-weight: 600;
-                                    color: $purple-500;
+                                    line-height: 20px;
+                                    color: $gray-800;
                                 }
+        
+                                //Right-Arrow
                                 svg{
-                                    transform: translateX(.25rem);
-                                    color: $purple-500;
+                                    color: $gray-800;
+                                }
+        
+                                //Show Project OnHover
+                                &:hover{
+                                    h6{
+                                        font-weight: 600;
+                                        color: $purple-500;
+                                    }
+                                    svg{
+                                        transform: translateX(.25rem);
+                                        color: $purple-500;
+                                    }
                                 }
                             }
                         }
                     }
+                    
                 }
-                
+            }     
+        
+        /*=============== CONTEXT ===============*/
+        
+            //Context
+            .context{
+                background-color: #F3F7FF;
+
+                .projectContext{
+                    display:flex;
+                    flex-direction: column; 
+                    padding: 80px 20px; 
+                    gap: 40px;
+                }
             }
-        }      
 
     }
+
+    /* For small screens devices */
+    @media screen and (min-width : 993px) {
+
+
+    }
+
+    /* For laptop screens devices */
+    @media screen and (min-width : 1400px) {
+        
+
+    }
+
+    /* For large devices */
+    @media screen and (min-width : 1920px) {
+
+
+    }
+
+
 }

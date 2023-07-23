@@ -1368,18 +1368,32 @@ html {
 /*=============== COLORS ===============*/
 /*=============== TYPOGRAPHY ===============*/
 .container {
-  /*=============== CONTENT SECTION ===============*/
+  /*=============== OVERVIEW ===============*/
+  /*=============== CONTEXT ===============*/
 }
-.container .projectContent h3 {
+.container .overviewSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .overviewSection h3 {
   font-size: 1.25rem;
   font-weight: 400;
   color: #0088FC;
-  text-transform: capitalize;
+  text-transform: uppercase;
+}
+.container .projectContent .thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container .projectContent .thumbnail img {
+  display: flex;
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
+  justify-content: center;
+  align-items: center;
 }
 .container .projectContent .projectOverview {
   display: flex;
@@ -1421,6 +1435,12 @@ html {
   gap: 8px;
   width: 50%;
 }
+.container .projectContent .projectOverview .overview .overviewRow .eachOverviewRow .subOverviewRow h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #0088FC;
+  text-transform: capitalize;
+}
 .container .projectContent .projectOverview .overview .showProject {
   display: flex;
   flex-direction: row;
@@ -1450,44 +1470,61 @@ html {
   transform: translateX(0.25rem);
   color: #7F63B9;
 }
+.container .context {
+  background-color: #F3F7FF;
+}
+.container .context .projectContext {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 320px;
+  gap: 40px;
+}
 
 /*=============== Responsive CaseStudy ===============*/
 .container {
   /* For small devices */
+  /* For small screens devices */
+  /* For laptop screens devices */
+  /* For large devices */
 }
 @media screen and (max-width: 768px) {
-  .container .projectContent h3 {
+  .container {
+    /*=============== OVERVIEW ===============*/
+    /*=============== CONTEXT ===============*/
+  }
+  .container .overviewSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .container .overviewSection h3 {
     font-size: 1.125rem;
+  }
+  .container .projectContent .thumbnail {
+    height: 320px;
+  }
+  .container .projectContent .thumbnail img {
+    display: flex;
+    width: auto;
+    height: 100%;
   }
   .container .projectContent .projectOverview {
     padding: 40px 20px;
-    gap: 16px;
+    gap: 32px;
   }
   .container .projectContent .projectOverview .projectTitle h2 {
     font-size: 1.25rem;
   }
-  .container .projectContent .projectOverview .overview {
-    gap: 16px;
-  }
   .container .projectContent .projectOverview .overview .overviewSection {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .container .projectContent .projectOverview .overview .overviewRow {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    gap: 4px;
   }
   .container .projectContent .projectOverview .overview .overviewRow .eachOverviewRow {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
   }
   .container .projectContent .projectOverview .overview .overviewRow .eachOverviewRow .subOverviewRow {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     width: 100%;
   }
   .container .projectContent .projectOverview .overview .showProject {
@@ -1518,5 +1555,14 @@ html {
   .container .projectContent .projectOverview .overview .showProject a:hover svg {
     transform: translateX(0.25rem);
     color: #7F63B9;
+  }
+  .container .context {
+    background-color: #F3F7FF;
+  }
+  .container .context .projectContext {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

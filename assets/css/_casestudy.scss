@@ -2,114 +2,153 @@
 
 .container{
 
-    /*=============== CONTENT SECTION ===============*/
-    .projectContent{
-        h3{
-            font-size: $font-xl; 
-            font-weight: 400;
-            color: #0088FC; 
-            text-transform: capitalize;
+    /*=============== OVERVIEW ===============*/
+        
+        //Common Heading
+        .overviewSection{
+            display:flex; 
+            flex-direction: column;
+            gap: 8px;
+
+            h3{
+                font-size: $font-xl; 
+                font-weight: 400;
+                color: #0088FC; 
+                text-transform: uppercase;
+            }
         }
 
-        //Thumnail Image
-        .thumbnail{
-            img{
-                width: 100%;
-                height: fit-content;
-            } 
-        }
+        //Overview Description
+        .projectContent{
 
-        //Project Overview
-        .projectOverview{
-            display:flex;
-            flex-direction: column; 
-            padding: 80px 320px; 
-            gap: 40px;
-
-            //Title
-            .projectTitle{
+            //Thumnail Image
+            .thumbnail{
                 display: flex;
-                flex-direction: column;
-                gap: 4px;
-                h2{
-                    font-size: $font-3xl;
-                    text-align: left;
-                }
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    display: flex;
+                    width: 100%;
+                    height: fit-content;
+                    justify-content: center;
+                    align-items: center;
+                } 
             }
 
-            //Overview Block
-            .overview{
-                display: flex; 
+            //Project Overview
+            .projectOverview{
+                display:flex;
                 flex-direction: column; 
-                gap: 20px;
+                padding: 80px 320px; 
+                gap: 40px;
 
-                //Overview Description
-                .overviewSection{
-                    display:flex; 
+                //Title
+                .projectTitle{
+                    display: flex;
                     flex-direction: column;
-                    gap: 8px;
-                }
-
-                //Roles, Duration, Tools
-                .overviewRow{
-                    display: flex; 
-                    flex-direction: 
-                    column; gap: 20px;
-
-                    .eachOverviewRow{
-                        display: flex;
-                        justify-content: space-between;
-
-                        .subOverviewRow{
-                            display:flex; 
-                            flex-direction: column; 
-                            gap: 8px; 
-                            width: 50%;
-                        }
+                    gap: 4px;
+                    h2{
+                        font-size: $font-3xl;
+                        text-align: left;
                     }
                 }
 
-                //Show Project
-                .showProject{
-                    display: flex;
-                    flex-direction: row;
+                //Overview Block
+                .overview{
+                    display: flex; 
+                    flex-direction: column; 
+                    gap: 20px;
 
-                    a{
+                    //Overview Description
+                    .overviewSection{
+                        display:flex; 
+                        flex-direction: column;
+                        gap: 8px;
+                    }
+
+                    //Roles, Duration, Tools
+                    .overviewRow{
+                        display: flex; 
+                        flex-direction: column; 
+                        gap: 20px;
+
+                        .eachOverviewRow{
+                            display: flex;
+                            justify-content: space-between;
+
+                            .subOverviewRow{
+                                display:flex; 
+                                flex-direction: column; 
+                                gap: 8px; 
+                                width: 50%;
+                                
+                                h3{
+                                    font-size: $font-lg; 
+                                    font-weight: 400;
+                                    color: #0088FC; 
+                                    text-transform: capitalize;
+                                }
+                            }
+                        }
+                    }
+
+                    //Show Project
+                    .showProject{
                         display: flex;
                         flex-direction: row;
-                        text-decoration: none;
-                        gap: 8px;
 
-                        h6{
-                            font-family: $proxima;
-                            font-size: $font-lg;
-                            font-style: normal;
-                            font-weight: 600;
-                            line-height: 20px;
-                            color: $gray-800;
-                        }
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            text-decoration: none;
+                            gap: 8px;
 
-                        //Right-Arrow
-                        svg{
-                            color: $gray-800;
-                        }
-
-                        //Show Project OnHover
-                        &:hover{
                             h6{
+                                font-family: $proxima;
+                                font-size: $font-lg;
+                                font-style: normal;
                                 font-weight: 600;
-                                color: $purple-500;
+                                line-height: 20px;
+                                color: $gray-800;
                             }
+
+                            //Right-Arrow
                             svg{
-                                transform: translateX(.25rem);
-                                color: $purple-500;
+                                color: $gray-800;
+                            }
+
+                            //Show Project OnHover
+                            &:hover{
+                                h6{
+                                    font-weight: 600;
+                                    color: $purple-500;
+                                }
+                                svg{
+                                    transform: translateX(.25rem);
+                                    color: $purple-500;
+                                }
                             }
                         }
                     }
                 }
+                
             }
-            
         }
-    }
+
+    /*=============== CONTEXT ===============*/
+        
+        //Context
+        .context{
+            background-color: #F3F7FF;
+
+            .projectContext{
+                display:flex;
+                flex-direction: column; 
+                padding: 80px 320px; 
+                gap: 40px;
+            }
+        }
+        
 
 }
