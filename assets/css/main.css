@@ -1621,6 +1621,9 @@ html {
   flex-direction: column;
   gap: 8px;
 }
+.container .contactMe .messageMe a p {
+  color: #0088FC;
+}
 
 /*=============== Responsive CaseStudy ===============*/
 .container {

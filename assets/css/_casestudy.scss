@@ -329,6 +329,12 @@
                 display: flex;
                 flex-direction: column;
                 gap: 8px;
+
+                a{
+                    p{
+                        color: #0088FC;
+                    }
+                }
             }
     }
 
