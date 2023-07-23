@@ -473,311 +473,6 @@
 
     }
 
-    /* For tablet and medium devices */
-    // min-width576pxto1279px
-    // @media screen and (max-width : 992px) {
-    //     //Nav Section
-    //     nav{
-    //         width: 100%;
-    //         height: 60px;
-    //         position: fixed;
-
-    //         //Inner Nav Container
-    //         .navContent{
-    //             padding: 0px 40px;
-
-    //             //Logo
-    //             img{
-    //                 height: 48px;
-    //                 width: 160px;
-    //                 }
-    //         }
-
-    //         //Tabs
-    //     }
-
-    //     //Hero Section
-    //     .heroSection{
-    //         padding: 0px 20px;
-    //         margin-top: 80px;
-    //         height: 100vh;
-
-    //         //Title Section
-    //         .titleSection{
-    //             height: 70vh;
-
-    //             //Main Heading
-    //             h1{
-    //                 width: 70%;
-    //                 font-size: $font-2xl;
-    //             }
-
-    //             //CV Download
-    //             .downloadCV{
-    //                 width: 120px;
-    //                 height: 120px;
-    //                 bottom: 60px;
-    //                 right: 20px;
-    //                 z-index: 998;
-
-    //                 a{
-    //                     font-size: $font-base;
-    //                 }
-    //             }
-
-    //             //BG Trianlge Separator
-    //             .dividerTriangle{
-    //                 width: 100%;
-    //                 position: absolute;
-    //                 bottom: -5px;
-    //                 z-index: 1;
-    
-    //                 //Triangle Divider Image
-    //                 img{
-    //                     width: 100%;
-    //                 }
-    //             }
-    //         }
-
-    //         //My Hotline-Bling Image
-    //         .imageSection{
-    //             width: auto;
-    //             margin-top: -420px;
-    //             z-index: 997;
-
-    //             .myImg{
-    //                width: 280px;
-    //             }
-    //         }
-
-    //         //Tools Use [Text]
-    //         .toolsUse{
-    //             visibility: hidden;
-    //         }
-    //     }
-
-    //     //About Section
-    //     .about{
-    //         margin: 40px 20px;
-    //         padding: 20px 0px;
-    //         overflow: hidden;
-
-    //         //Main Content
-    //         .aboutSection{
-                
-    //             //intro Block
-    //             .introBlock{
-    //                 //Heading
-    //                 .head{
-    //                     h2{
-    //                         width: 80%;
-    //                         font-size: $font-xl;
-    //                     }
-
-    //                     .tools{
-    //                         display: flex;
-    //                         flex-direction: row;
-    //                         gap: 16px;
-    //                     }
-    //                 }
-    //             }
-
-    //             //About Me Describe Part
-    //             .aboutMe{
-    //                 display: flex;
-    //                 flex-direction: column;
-    //                 margin-top: 40px;
-    //                 padding: 0px;
-
-    //                 //Mustang-Image
-    //                 .aboutImage{
-    //                     display: flex;
-    //                     width: 100%;
-    //                     justify-content: center;
-
-    //                 //     //BG Frame
-    //                 //     .frameBackground{
-    //                 //         width: 90%;
-    //                 //         left: 6px;
-    //                 //         top: 2px;
-    //                 //         border: 4px solid $purple-900;
-
-    //                 //     //Actual Photo
-    //                 //     .photoPlace{
-    //                 //         position: absolute;
-    //                 //         width: 100%;
-    //                 //         left: 16px;
-    //                 //         top: 16px;
-
-    //                 //         img{
-    //                 //             width: 100%;
-    //                 //             object-fit: cover;
-    //                 //             height: 400px;
-    //                 //             overflow: hidden;
-    //                 //         }
-    //                 //     }
-    //                 // }
-    //                 }
-
-    //                 .aboutParagraph{
-    //                     p{
-    //                     font-size: $font-base;
-    //                     font-weight: 400;
-    //                     }
-                        
-    //                 }
-    //             }
-
-    //             //Statistics
-    //             .stats{
-    //                 margin-top: 80px;
-    //                 width: 100%;
-    //                 display: flex;
-    //                 flex-direction: row;
-    //                 // justify-content: space-between;
-    //                 gap: 20px;
-    
-    //                 //Experience,Projects,Available
-    //                 .data{
-    //                     display: flex;
-    //                     flex-direction: column;
-    //                     align-items: center;
-                        
-    //                     gap: 16px;
-    //                     padding: 0px;
-    //                     width: 240px;
-    
-    //                     //Data Svg
-    //                     .dataImg{
-    //                         width: 40px;
-    //                         height: 40px;
-    //                     }
-    
-    //                     //Data Text
-    //                     .dataInfo{
-    //                         display: flex;
-    //                         flex-direction: column;
-    //                         align-items: center;
-    //                         padding: 0px;
-
-    //                         h2{
-    //                             font-size: $font-2xl;
-    //                         }
-
-    //                         h5{
-    //                             font-size: $font-sm;
-    //                             font-weight: 400;
-    //                             text-align: center;
-    //                         }
-    //                     }
-    //                 }
-    //             }
-
-    //             //Interest
-    //             .interest{
-    //                 width: 100%;
-    //                 margin-top: 80px;
-
-    //                 //Intro to Interest
-    //                 .interestIntro{
-    //                     p{
-    //                     font-size: $font-base;
-    //                     font-weight: 400;
-    //                     }
-    //                 }
-
-    //                 //Interest Icons
-    //                 .interestIcons{
-    //                     flex-direction: column;
-    //                     gap: 40px;
-    //                     justify-content: space-between;
-
-    //                     .icons{
-    //                         width: 40px;
-    //                         height: 40px;
-
-    //                         img{
-    //                             height: 100%;
-    //                         }
-    //                     }
-
-    //                     .iconsRow1{
-    //                         flex-direction: row;
-    //                         gap: 40px;
-    //                         width: 80%;
-    //                     }
-
-    //                     .iconsRow2{
-    //                         flex-direction: row;
-    //                         gap: 40px;
-    //                         justify-content: center;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-
-    //     //Services Section
-    //     .services{
-    //         padding: 40px 20px;
-    //         overflow: hidden;
-
-    //          //Services Content
-    //         .servicesSection{
-    //             padding: 0px 0px;
-
-    //              //Services Intro
-    //             .servicesIntro{
-    //                 margin-top: 40px;
-    //                 width: 90%;
-    //                 h2{
-    //                     width: 100%;
-    //                     font-size: $font-xl;
-    //                 }
-    //             }
-
-    //             //Services Cards Row
-    //             .servicesCards{
-    //                 flex-direction: column;
-    //                 justify-content: none;
-    //                 padding: 40px 0px;
-    //                 gap: 20px;
-    //                 overflow: hidden;
-    //                 width: 100%;
-                    
-
-    //                 //Card
-    //                 .cards{
-    //                     width: 50%;
-    //                     padding: 32px;
-
-    //                     //UI/UX, Web Development, Visual Design
-    //                     .title{
-
-    //                         h3{
-    //                             font-size: $font-lg;
-    //                         }
-
-    //                         p{
-    //                         font-size: $font-base;
-    //                         font-weight: 400;
-    //                         min-height: auto;
-    //                         }
-    //                     }
-
-    //                     .toolsService{
-    //                         h4{
-    //                             font-size: $font-base;
-    //                         }
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-
-
-    // }
-
     /* For small screens devices */
     @media screen and (min-width : 993px) {
 
@@ -1316,5 +1011,310 @@
         }
 
     }
+
+    /* For tablet and medium devices */
+    // min-width576pxto1279px
+    // @media screen and (max-width : 992px) {
+    //     //Nav Section
+    //     nav{
+    //         width: 100%;
+    //         height: 60px;
+    //         position: fixed;
+
+    //         //Inner Nav Container
+    //         .navContent{
+    //             padding: 0px 40px;
+
+    //             //Logo
+    //             img{
+    //                 height: 48px;
+    //                 width: 160px;
+    //                 }
+    //         }
+
+    //         //Tabs
+    //     }
+
+    //     //Hero Section
+    //     .heroSection{
+    //         padding: 0px 20px;
+    //         margin-top: 80px;
+    //         height: 100vh;
+
+    //         //Title Section
+    //         .titleSection{
+    //             height: 70vh;
+
+    //             //Main Heading
+    //             h1{
+    //                 width: 70%;
+    //                 font-size: $font-2xl;
+    //             }
+
+    //             //CV Download
+    //             .downloadCV{
+    //                 width: 120px;
+    //                 height: 120px;
+    //                 bottom: 60px;
+    //                 right: 20px;
+    //                 z-index: 998;
+
+    //                 a{
+    //                     font-size: $font-base;
+    //                 }
+    //             }
+
+    //             //BG Trianlge Separator
+    //             .dividerTriangle{
+    //                 width: 100%;
+    //                 position: absolute;
+    //                 bottom: -5px;
+    //                 z-index: 1;
+    
+    //                 //Triangle Divider Image
+    //                 img{
+    //                     width: 100%;
+    //                 }
+    //             }
+    //         }
+
+    //         //My Hotline-Bling Image
+    //         .imageSection{
+    //             width: auto;
+    //             margin-top: -420px;
+    //             z-index: 997;
+
+    //             .myImg{
+    //                width: 280px;
+    //             }
+    //         }
+
+    //         //Tools Use [Text]
+    //         .toolsUse{
+    //             visibility: hidden;
+    //         }
+    //     }
+
+    //     //About Section
+    //     .about{
+    //         margin: 40px 20px;
+    //         padding: 20px 0px;
+    //         overflow: hidden;
+
+    //         //Main Content
+    //         .aboutSection{
+                
+    //             //intro Block
+    //             .introBlock{
+    //                 //Heading
+    //                 .head{
+    //                     h2{
+    //                         width: 80%;
+    //                         font-size: $font-xl;
+    //                     }
+
+    //                     .tools{
+    //                         display: flex;
+    //                         flex-direction: row;
+    //                         gap: 16px;
+    //                     }
+    //                 }
+    //             }
+
+    //             //About Me Describe Part
+    //             .aboutMe{
+    //                 display: flex;
+    //                 flex-direction: column;
+    //                 margin-top: 40px;
+    //                 padding: 0px;
+
+    //                 //Mustang-Image
+    //                 .aboutImage{
+    //                     display: flex;
+    //                     width: 100%;
+    //                     justify-content: center;
+
+    //                 //     //BG Frame
+    //                 //     .frameBackground{
+    //                 //         width: 90%;
+    //                 //         left: 6px;
+    //                 //         top: 2px;
+    //                 //         border: 4px solid $purple-900;
+
+    //                 //     //Actual Photo
+    //                 //     .photoPlace{
+    //                 //         position: absolute;
+    //                 //         width: 100%;
+    //                 //         left: 16px;
+    //                 //         top: 16px;
+
+    //                 //         img{
+    //                 //             width: 100%;
+    //                 //             object-fit: cover;
+    //                 //             height: 400px;
+    //                 //             overflow: hidden;
+    //                 //         }
+    //                 //     }
+    //                 // }
+    //                 }
+
+    //                 .aboutParagraph{
+    //                     p{
+    //                     font-size: $font-base;
+    //                     font-weight: 400;
+    //                     }
+                        
+    //                 }
+    //             }
+
+    //             //Statistics
+    //             .stats{
+    //                 margin-top: 80px;
+    //                 width: 100%;
+    //                 display: flex;
+    //                 flex-direction: row;
+    //                 // justify-content: space-between;
+    //                 gap: 20px;
+    
+    //                 //Experience,Projects,Available
+    //                 .data{
+    //                     display: flex;
+    //                     flex-direction: column;
+    //                     align-items: center;
+                        
+    //                     gap: 16px;
+    //                     padding: 0px;
+    //                     width: 240px;
+    
+    //                     //Data Svg
+    //                     .dataImg{
+    //                         width: 40px;
+    //                         height: 40px;
+    //                     }
+    
+    //                     //Data Text
+    //                     .dataInfo{
+    //                         display: flex;
+    //                         flex-direction: column;
+    //                         align-items: center;
+    //                         padding: 0px;
+
+    //                         h2{
+    //                             font-size: $font-2xl;
+    //                         }
+
+    //                         h5{
+    //                             font-size: $font-sm;
+    //                             font-weight: 400;
+    //                             text-align: center;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+
+    //             //Interest
+    //             .interest{
+    //                 width: 100%;
+    //                 margin-top: 80px;
+
+    //                 //Intro to Interest
+    //                 .interestIntro{
+    //                     p{
+    //                     font-size: $font-base;
+    //                     font-weight: 400;
+    //                     }
+    //                 }
+
+    //                 //Interest Icons
+    //                 .interestIcons{
+    //                     flex-direction: column;
+    //                     gap: 40px;
+    //                     justify-content: space-between;
+
+    //                     .icons{
+    //                         width: 40px;
+    //                         height: 40px;
+
+    //                         img{
+    //                             height: 100%;
+    //                         }
+    //                     }
+
+    //                     .iconsRow1{
+    //                         flex-direction: row;
+    //                         gap: 40px;
+    //                         width: 80%;
+    //                     }
+
+    //                     .iconsRow2{
+    //                         flex-direction: row;
+    //                         gap: 40px;
+    //                         justify-content: center;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+
+    //     //Services Section
+    //     .services{
+    //         padding: 40px 20px;
+    //         overflow: hidden;
+
+    //          //Services Content
+    //         .servicesSection{
+    //             padding: 0px 0px;
+
+    //              //Services Intro
+    //             .servicesIntro{
+    //                 margin-top: 40px;
+    //                 width: 90%;
+    //                 h2{
+    //                     width: 100%;
+    //                     font-size: $font-xl;
+    //                 }
+    //             }
+
+    //             //Services Cards Row
+    //             .servicesCards{
+    //                 flex-direction: column;
+    //                 justify-content: none;
+    //                 padding: 40px 0px;
+    //                 gap: 20px;
+    //                 overflow: hidden;
+    //                 width: 100%;
+                    
+
+    //                 //Card
+    //                 .cards{
+    //                     width: 50%;
+    //                     padding: 32px;
+
+    //                     //UI/UX, Web Development, Visual Design
+    //                     .title{
+
+    //                         h3{
+    //                             font-size: $font-lg;
+    //                         }
+
+    //                         p{
+    //                         font-size: $font-base;
+    //                         font-weight: 400;
+    //                         min-height: auto;
+    //                         }
+    //                     }
+
+    //                     .toolsService{
+    //                         h4{
+    //                             font-size: $font-base;
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+
+
+    // }
 
 }
