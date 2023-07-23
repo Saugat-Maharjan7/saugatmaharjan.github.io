@@ -592,6 +592,44 @@ html {
   width: 50%;
   gap: 20px;
 }
+.container .projects .grid-projects .column-2 .linkButton {
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+  overflow: hidden;
+  font-family: "Sentient", serif;
+  border-radius: 5px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+  border: 1px solid #1F2937;
+  color: #111111;
+}
+.container .projects .grid-projects .column-2 .linkButton::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  background-color: #7F63B9;
+  width: 100%;
+  left: -100%;
+  transition: ease-in 0.2s;
+}
+.container .projects .grid-projects .column-2 .linkButton:hover {
+  color: #FFFFFF;
+  border: 1px solid #111111;
+}
+.container .projects .grid-projects .column-2 .linkButton:hover svg {
+  color: #FFFFFF;
+}
+.container .projects .grid-projects .column-2 .linkButton:hover::after {
+  left: 0;
+}
 .container .contact {
   display: flex;
   flex-direction: column;
