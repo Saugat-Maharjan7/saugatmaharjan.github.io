@@ -246,4 +246,91 @@
         }
 
 
+    /*=============== USER PERSONA ===============*/ 
+        .userPersonaSection{
+            background-color: #F3F7FF;
+        }
+
+    /*=============== WIREFRAME ===============*/ 
+
+        .wireFrame{
+            display:flex;
+            flex-direction: column; 
+            padding: 140px 320px; 
+            gap: 40px;
+            align-items: center;
+
+            img{
+                width: 50%;
+            }
+        }
+
+    /*=============== STYLE GUIDE ===============*/ 
+
+        .styleGuideSection{
+            background-color: #F3F7FF;
+
+            .styleGuide{
+                display:flex;
+                flex-direction: column; 
+                padding: 140px 320px; 
+                gap: 40px;
+            }
+
+        }
+
+    /*=============== LINK TO FIGMA ===============*/ 
+
+    .figmaLinkSection{
+        background-color: #F9FAFB;
+
+        .figmaLink{
+            display:flex;
+            flex-direction: column; 
+            padding: 140px 320px; 
+            gap: 8px;
+            align-items: center;
+
+            a{
+                p{
+                    color: #0088FC;
+                }
+            }
+        }
+    }
+
+    /*=============== KEY TAKEAWAY ===============*/ 
+
+    .keyTakeaway{
+        display:flex;
+            flex-direction: column; 
+            padding: 140px 320px; 
+            gap: 40px;
+
+            ul{
+                padding-left: 16px;
+            }
+    }
+
+    /*=============== CONTACT ===============*/ 
+
+    .contactMe{
+        display:flex;
+            flex-direction: column; 
+            padding: 140px 320px; 
+            gap: 40px;
+            align-items: center;
+
+            p{
+                text-align: center;
+            }
+
+            .messageMe{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+    }
+
+
 }

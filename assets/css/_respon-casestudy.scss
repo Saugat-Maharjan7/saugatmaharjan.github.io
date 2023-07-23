@@ -170,6 +170,68 @@
             img{
                 width: 100%;
             }
+        }
+
+        /*=============== Wireframes ===============*/ 
+        .wireFrame{
+            padding: 80px 20px; 
+            gap: 40px;
+            align-items: center;
+    
+            img{
+                width: 80%;
+            }
+        }
+
+        /*=============== STYLE GUIDE ===============*/ 
+
+        .styleGuideSection{
+            background-color: #F3F7FF;
+
+            .styleGuide{
+                display:flex;
+                flex-direction: column; 
+                padding: 80px 20px; 
+                gap: 40px;
+            }
+
+        }
+
+        /*=============== LINK TO FIGMA ===============*/ 
+
+        .figmaLinkSection{
+
+            .figmaLink{
+                padding: 80px 20px;
+
+                p{
+                    text-align: center;
+                }
+            }
+        }
+
+        /*=============== KEY TAKEAWAY ===============*/ 
+
+        .keyTakeaway{
+            display:flex;
+                flex-direction: column; 
+                padding: 80px 20px; 
+                gap: 40px;
+
+                ul{
+                    padding-left: 16px;
+                }
+        }
+
+        /*=============== CONTACT ===============*/ 
+
+    .contactMe{
+            padding: 80px 20px; 
+            gap: 20px;
+
+            .messageMe{
+                gap: 4px;
+            }
     }
 
     }

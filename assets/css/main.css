@@ -1373,6 +1373,12 @@ html {
   /*=============== DESIGN PROCESS ===============*/
   /*=============== RESEARCH SECTION ===============*/
   /*=============== COMPETETIVE ANALYSIS ===============*/
+  /*=============== USER PERSONA ===============*/
+  /*=============== WIREFRAME ===============*/
+  /*=============== STYLE GUIDE ===============*/
+  /*=============== LINK TO FIGMA ===============*/
+  /*=============== KEY TAKEAWAY ===============*/
+  /*=============== CONTACT ===============*/
 }
 .container .overviewSection {
   display: flex;
@@ -1556,6 +1562,65 @@ html {
   padding: 140px 320px;
   gap: 40px;
 }
+.container .userPersonaSection {
+  background-color: #F3F7FF;
+}
+.container .wireFrame {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 40px;
+  align-items: center;
+}
+.container .wireFrame img {
+  width: 50%;
+}
+.container .styleGuideSection {
+  background-color: #F3F7FF;
+}
+.container .styleGuideSection .styleGuide {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 40px;
+}
+.container .figmaLinkSection {
+  background-color: #F9FAFB;
+}
+.container .figmaLinkSection .figmaLink {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 8px;
+  align-items: center;
+}
+.container .figmaLinkSection .figmaLink a p {
+  color: #0088FC;
+}
+.container .keyTakeaway {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 40px;
+}
+.container .keyTakeaway ul {
+  padding-left: 16px;
+}
+.container .contactMe {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 40px;
+  align-items: center;
+}
+.container .contactMe p {
+  text-align: center;
+}
+.container .contactMe .messageMe {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
 /*=============== Responsive CaseStudy ===============*/
 .container {
@@ -1571,6 +1636,11 @@ html {
     /*=============== DESIGN PROCESS ===============*/
     /*=============== RESEARCH SECTION ===============*/
     /*=============== COMPETETIVE ANALYSIS ===============*/
+    /*=============== Wireframes ===============*/
+    /*=============== STYLE GUIDE ===============*/
+    /*=============== LINK TO FIGMA ===============*/
+    /*=============== KEY TAKEAWAY ===============*/
+    /*=============== CONTACT ===============*/
   }
   .container .overviewSection {
     display: flex;
@@ -1678,5 +1748,44 @@ html {
   }
   .container .competetiveAnalysis img {
     width: 100%;
+  }
+  .container .wireFrame {
+    padding: 80px 20px;
+    gap: 40px;
+    align-items: center;
+  }
+  .container .wireFrame img {
+    width: 80%;
+  }
+  .container .styleGuideSection {
+    background-color: #F3F7FF;
+  }
+  .container .styleGuideSection .styleGuide {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 40px;
+  }
+  .container .figmaLinkSection .figmaLink {
+    padding: 80px 20px;
+  }
+  .container .figmaLinkSection .figmaLink p {
+    text-align: center;
+  }
+  .container .keyTakeaway {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 40px;
+  }
+  .container .keyTakeaway ul {
+    padding-left: 16px;
+  }
+  .container .contactMe {
+    padding: 80px 20px;
+    gap: 20px;
+  }
+  .container .contactMe .messageMe {
+    gap: 4px;
   }
 }/*# sourceMappingURL=main.css.map */
