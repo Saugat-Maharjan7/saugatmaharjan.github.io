@@ -149,6 +149,20 @@
                 gap: 40px;
             }
         }
+
+    /*=============== DESIGN PROCESS ===============*/    
         
+        //Design Flow
+        .designProcess{
+            display:flex;
+            flex-direction: column; 
+            padding: 140px 320px; 
+            gap: 40px;
+
+            img{
+                width: 100%;
+            }
+        }
+
 
 }
