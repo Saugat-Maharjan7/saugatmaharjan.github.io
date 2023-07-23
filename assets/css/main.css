@@ -1363,4 +1363,90 @@ html {
   .container .projects .grid-projects .projectCard:hover img {
     opacity: 1;
   }
+}
+
+/*=============== COLORS ===============*/
+/*=============== TYPOGRAPHY ===============*/
+.container {
+  /*=============== CONTENT SECTION ===============*/
+}
+.container .projectContent h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #0088FC;
+  text-transform: capitalize;
+}
+.container .projectContent .thumbnail img {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .projectContent .projectOverview {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 320px;
+  gap: 40px;
+}
+.container .projectContent .projectOverview .projectTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.container .projectContent .projectOverview .projectTitle h2 {
+  font-size: 1.875rem;
+  text-align: left;
+}
+.container .projectContent .projectOverview .overview {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .projectContent .projectOverview .overview .overviewSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container .projectContent .projectOverview .overview .overviewRow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .projectContent .projectOverview .overview .overviewRow .eachOverviewRow {
+  display: flex;
+  justify-content: space-between;
+}
+.container .projectContent .projectOverview .overview .overviewRow .eachOverviewRow .subOverviewRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 50%;
+}
+.container .projectContent .projectOverview .overview .showProject {
+  display: flex;
+  flex-direction: row;
+}
+.container .projectContent .projectOverview .overview .showProject a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 8px;
+}
+.container .projectContent .projectOverview .overview .showProject a h6 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: #1F2937;
+}
+.container .projectContent .projectOverview .overview .showProject a svg {
+  color: #1F2937;
+}
+.container .projectContent .projectOverview .overview .showProject a:hover h6 {
+  font-weight: 600;
+  color: #7F63B9;
+}
+.container .projectContent .projectOverview .overview .showProject a:hover svg {
+  transform: translateX(0.25rem);
+  color: #7F63B9;
 }/*# sourceMappingURL=main.css.map */
