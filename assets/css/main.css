@@ -1372,6 +1372,7 @@ html {
   /*=============== CONTEXT ===============*/
   /*=============== DESIGN PROCESS ===============*/
   /*=============== RESEARCH SECTION ===============*/
+  /*=============== COMPETETIVE ANALYSIS ===============*/
 }
 .container .overviewSection {
   display: flex;
@@ -1549,6 +1550,12 @@ html {
 .container .initialResearchSection .painPointsFlow .painPoint p {
   text-align: center;
 }
+.container .competetiveAnalysis {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 40px;
+}
 
 /*=============== Responsive CaseStudy ===============*/
 .container {
@@ -1563,6 +1570,7 @@ html {
     /*=============== CONTEXT ===============*/
     /*=============== DESIGN PROCESS ===============*/
     /*=============== RESEARCH SECTION ===============*/
+    /*=============== COMPETETIVE ANALYSIS ===============*/
   }
   .container .overviewSection {
     display: flex;
@@ -1660,6 +1668,15 @@ html {
     gap: 20px;
   }
   .container .initialResearchSection .painPointsFlow .painPoint {
+    width: 100%;
+  }
+  .container .competetiveAnalysis {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 40px;
+  }
+  .container .competetiveAnalysis img {
     width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

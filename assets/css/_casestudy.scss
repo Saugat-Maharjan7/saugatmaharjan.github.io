@@ -164,8 +164,9 @@
             }
         }
 
-        /*=============== RESEARCH SECTION ===============*/   
-        .initialResearchSection{
+    /*=============== RESEARCH SECTION ===============*/   
+        
+    .initialResearchSection{
             background-color: #F9FAFB;
 
             .initialResearch{
@@ -233,6 +234,15 @@
                     }
                 }
             }
+        }
+
+    /*=============== COMPETETIVE ANALYSIS ===============*/  
+
+        .competetiveAnalysis{
+                display:flex;
+                flex-direction: column; 
+                padding: 140px 320px; 
+                gap: 40px;
         }
 
 
