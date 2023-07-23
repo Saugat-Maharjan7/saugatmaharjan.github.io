@@ -1505,6 +1505,50 @@ html {
   padding-left: 16px;
   gap: 8px;
 }
+.container .initialResearchSection .painPointsFlow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container .initialResearchSection .painPointsFlow .painPoint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 25%;
+  padding-top: 20px;
+}
+.container .initialResearchSection .painPointsFlow .painPoint .pointHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.container .initialResearchSection .painPointsFlow .painPoint .pointHeading .numberingPoints {
+  display: flex;
+  height: 64px;
+  width: 64px;
+  background-color: #0088FC;
+  border-radius: 999px;
+  align-items: center;
+  justify-content: center;
+}
+.container .initialResearchSection .painPointsFlow .painPoint .pointHeading .numberingPoints h2 {
+  color: white;
+}
+.container .initialResearchSection .painPointsFlow .painPoint .pointHeading h4 {
+  text-transform: uppercase;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  color: black;
+  font-family: "Sentient", serif;
+  font-weight: 500;
+}
+.container .initialResearchSection .painPointsFlow .painPoint p {
+  text-align: center;
+}
 
 /*=============== Responsive CaseStudy ===============*/
 .container {
@@ -1518,6 +1562,7 @@ html {
     /*=============== OVERVIEW ===============*/
     /*=============== CONTEXT ===============*/
     /*=============== DESIGN PROCESS ===============*/
+    /*=============== RESEARCH SECTION ===============*/
   }
   .container .overviewSection {
     display: flex;
@@ -1599,6 +1644,22 @@ html {
     gap: 40px;
   }
   .container .designProcess img {
+    width: 100%;
+  }
+  .container .initialResearchSection {
+    background-color: #F9FAFB;
+  }
+  .container .initialResearchSection .initialResearch {
+    padding: 140px 20px;
+    gap: 40px;
+  }
+  .container .initialResearchSection .painPointsFlow {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .container .initialResearchSection .painPointsFlow .painPoint {
     width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -181,6 +181,58 @@
                     gap: 8px;
                 }
             }
+
+            .painPointsFlow{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 20px;
+
+                .painPoint{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    width: 25%;
+                    padding-top: 20px;
+
+                    .pointHeading{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        align-items: center;
+
+                        .numberingPoints{
+                            display: flex;
+                            height: 64px;
+                            width: 64px;
+                            background-color: #0088FC;
+                            border-radius: 999px;
+                            align-items: center;
+                            justify-content: center;
+
+                            h2{
+                                color: white;
+                            }
+                        }
+
+                        h4{
+                            text-transform: uppercase;
+                            text-align: center;
+                            align-content: center;
+                            justify-content: center;
+                            color: black;
+                            font-family: $sentient;
+                            font-weight: 500;
+                        }
+
+                    }
+
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
         }
 
 

@@ -125,17 +125,39 @@
 
         /*=============== DESIGN PROCESS ===============*/    
         
-        //Design Flow
-        .designProcess{
-            display:flex;
-            flex-direction: column; 
-            padding: 120px 20px; 
-            gap: 40px;
+            //Design Flow
+            .designProcess{
+                display:flex;
+                flex-direction: column; 
+                padding: 120px 20px; 
+                gap: 40px;
 
-            img{
-                width: 100%;
+                img{
+                    width: 100%;
+                }
             }
-        }
+
+        /*=============== RESEARCH SECTION ===============*/   
+        
+            .initialResearchSection{
+                background-color: #F9FAFB;
+
+                .initialResearch{
+                    padding: 140px 20px; 
+                    gap: 40px;  
+                }
+
+                .painPointsFlow{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 20px;
+
+                    .painPoint{
+                        width: 100%;
+                    }
+                }
+            }
 
     }
 
