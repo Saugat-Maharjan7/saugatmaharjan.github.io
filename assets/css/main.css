@@ -1371,6 +1371,7 @@ html {
   /*=============== OVERVIEW ===============*/
   /*=============== CONTEXT ===============*/
   /*=============== DESIGN PROCESS ===============*/
+  /*=============== RESEARCH SECTION ===============*/
 }
 .container .overviewSection {
   display: flex;
@@ -1488,6 +1489,21 @@ html {
 }
 .container .designProcess img {
   width: 100%;
+}
+.container .initialResearchSection {
+  background-color: #F9FAFB;
+}
+.container .initialResearchSection .initialResearch {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 320px;
+  gap: 40px;
+}
+.container .initialResearchSection .initialResearch ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  gap: 8px;
 }
 
 /*=============== Responsive CaseStudy ===============*/

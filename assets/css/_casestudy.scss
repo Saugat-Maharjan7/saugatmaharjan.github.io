@@ -164,5 +164,24 @@
             }
         }
 
+        /*=============== RESEARCH SECTION ===============*/   
+        .initialResearchSection{
+            background-color: #F9FAFB;
+
+            .initialResearch{
+                display:flex;
+                flex-direction: column; 
+                padding: 140px 320px; 
+                gap: 40px;
+
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 16px;
+                    gap: 8px;
+                }
+            }
+        }
+
 
 }
