@@ -539,11 +539,11 @@ html {
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
   font-weight: 600;
-  color: #7F63B9;
+  color: white;
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
   transform: translateX(0.25rem);
-  color: #7F63B9;
+  color: white;
 }
 .container .projects .grid-projects .projectCard .projectImg {
   display: flex;
@@ -999,11 +999,11 @@ html {
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
     font-weight: 600;
-    color: #7F63B9;
+    color: white;
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
     transform: translateX(0.25rem);
-    color: #7F63B9;
+    color: white;
   }
   .container .projects .grid-projects .projectCard .projectImg {
     border-radius: 20px;
@@ -1338,11 +1338,11 @@ html {
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
     font-weight: 600;
-    color: #7F63B9;
+    color: white;
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
     transform: translateX(0.25rem);
-    color: #7F63B9;
+    color: white;
   }
   .container .projects .grid-projects .projectCard .projectImg {
     display: flex;
