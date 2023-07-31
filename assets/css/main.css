@@ -1586,6 +1586,13 @@ html {
 }
 .container .figmaLinkSection {
   background-color: #F9FAFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .figmaLinkSection img {
+  padding-top: 20px;
+  width: 60%;
 }
 .container .figmaLinkSection .figmaLink {
   display: flex;
