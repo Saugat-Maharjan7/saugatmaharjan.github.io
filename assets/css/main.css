@@ -137,7 +137,13 @@ html {
   height: 64px;
   width: 212px;
 }
-.container nav .navContent .navTabs a {
+.container nav .navContent .navTabs {
+  display: flex;
+}
+.container nav .navContent .navTabs li {
+  list-style-type: none;
+}
+.container nav .navContent .navTabs li a {
   font-family: "Proxima Nova", sans-serif;
   font-size: 1rem;
   text-decoration: none;
@@ -145,9 +151,28 @@ html {
   width: 130px;
   padding: 10px 20px;
 }
-.container nav .navContent .navTabs a:hover {
+.container nav .navContent .navTabs li a:hover {
   text-decoration: underline;
   font-weight: 600;
+}
+.container nav .navContent .open-menu, .container nav .navContent .close-menu {
+  position: absolute;
+  color: #111111;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+.container nav .navContent .open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.container nav .navContent .close-menu {
+  top: 20px;
+  right: 20px;
+}
+.container nav .navContent #check {
+  display: none;
 }
 .container .heroSection {
   display: flex;
@@ -801,17 +826,65 @@ html {
   .container nav {
     width: 100%;
     height: 60px;
-    position: fixed;
   }
   .container nav .navContent {
     padding: 0px 20px;
   }
   .container nav .navContent img {
-    height: 48px;
+    height: 40px;
     width: 160px;
   }
-  .container nav .navTabs {
+  .container nav .navContent .navTabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
+  }
+  .container nav .navContent .navTabs li {
+    list-style-type: none;
+    margin-top: 60px;
+  }
+  .container nav .navContent .navTabs li a {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #111111;
+    width: 130px;
+    padding: 10px 20px;
+  }
+  .container nav .navContent .navTabs li a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .container nav .navContent .open-menu, .container nav .navContent .close-menu {
+    position: absolute;
+    color: #111111;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: block;
+  }
+  .container nav .navContent .open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  .container nav .navContent .close-menu {
+    top: 20px;
+    right: 20px;
+  }
+  .container nav .navContent #check {
     display: none;
+  }
+  .container nav .navContent #check:checked ~ .navTabs {
+    right: 0;
   }
   .container .heroSection {
     padding: 0px 20px;

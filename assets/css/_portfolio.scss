@@ -34,23 +34,50 @@
         
                 //Tabs
                 .navTabs{
-    
-                    a{
-                        font-family: $proxima;
-                        font-size: $font-base;
-                        text-decoration: none;
-                        color: $black;
-                        width: 130px;
-                        padding: 10px 20px;
-        
-                        &:hover{
-                            text-decoration: underline;
-                            font-weight: 600;
-                                }
+                    display: flex;
+
+                    li{
+                        list-style-type: none;
+
+                        a{
+                            font-family: $proxima;
+                            font-size: $font-base;
+                            text-decoration: none;
+                            color: $black;
+                            width: 130px;
+                            padding: 10px 20px;
+            
+                            &:hover{
+                                text-decoration: underline;
+                                font-weight: 600;
+                                    }
+                        }
                     }
+                        
                 }
+
+                .open-menu, .close-menu{
+                    position: absolute;
+                    color: $black;
+                    cursor: pointer;
+                    font-size: $font-2xl;
+                    display: none;
+                }
+
+                .open-menu{
+                    top: 50%;
+                    right: 20px;
+                    transform: translateY(-50%);
+                }
+
+                .close-menu{
+                    top: 20px;
+                    right: 20px;
+                }
+
+                #check {display: none;}
             }
-        }
+    }
 
     /*=============== HERO SECTION ===============*/
     .heroSection{
