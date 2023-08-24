@@ -424,6 +424,46 @@
             }
         }
 
+        //Process Section
+        .process{
+            padding: 0px 20px;
+
+            .processSection{
+                display: flex;
+                flex-direction: column;
+                padding: 80px 0px;
+                gap: 40px;
+
+                .introBlock{
+                    .head{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        h2{
+                            font-size: $font-2xl;
+                        }
+                    }
+                }
+
+                .processBlock{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .eachPrcoess{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                    }
+                
+                }
+
+            }
+            
+        }
+
         //Contact Section
         .contact{
             padding: 20px 0px 60px 0px;
@@ -1008,6 +1048,32 @@
 
             }
             }
+        }
+
+        //Process Section
+        .process{
+            padding: 0px 224px;
+
+            .processSection{
+                display: flex;
+                padding: 160px 0px;
+                gap: 40px;
+
+                .processBlock{
+                    display: flex;
+                    gap: 20px;
+
+                    .eachPrcoess{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+
+                    }
+                
+                }
+
+            }
+            
         }
 
     }

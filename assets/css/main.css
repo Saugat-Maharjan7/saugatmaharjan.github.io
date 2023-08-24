@@ -111,6 +111,7 @@ html {
   /*=============== ABOUT SECTION ===============*/
   /*=============== SERVICES SECTION ===============*/
   /*=============== PROJECTS SECTION ===============*/
+  /*=============== PROCESS SECTION ===============*/
   /*=============== CONTACT SECTION ===============*/
   /*=============== FOOTER ===============*/
 }
@@ -630,6 +631,62 @@ html {
 .container .projects .grid-projects .column-2 .linkButton:hover::after {
   left: 0;
 }
+.container .process {
+  display: flex;
+  padding: 0px 120px;
+  background-color: #F9FAFB;
+}
+.container .process .processSection {
+  display: flex;
+  flex-direction: row;
+  padding: 160px 0px;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+.container .process .processSection .introBlock .head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .process .processSection .introBlock .head h2 {
+  width: 90%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.container .process .processSection .introBlock .head p {
+  width: 90%;
+}
+.container .process .processSection .processBlock {
+  display: flex;
+  gap: 20px;
+}
+.container .process .processSection .processBlock .eachPrcoess {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .process .processSection .processBlock .eachPrcoess .numbering {
+  display: flex;
+  border-radius: 999px;
+  background-color: #67E8F9;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.container .process .processSection .processBlock .eachPrcoess .process1 {
+  background-color: #F0ABFC;
+}
+.container .process .processSection .processBlock .eachPrcoess .process2 {
+  background-color: #FDBA74;
+}
+.container .process .processSection .processBlock .eachPrcoess .process3 {
+  background-color: #86EFAC;
+}
+.container .process .processSection .processBlock .eachPrcoess h5 {
+  font-size: 1.5rem;
+}
 .container .contact {
   display: flex;
   flex-direction: column;
@@ -1035,6 +1092,33 @@ html {
   .container .projects .grid-projects .column-2 {
     width: 100%;
   }
+  .container .process {
+    padding: 0px 20px;
+  }
+  .container .process .processSection {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    gap: 40px;
+  }
+  .container .process .processSection .introBlock .head {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .container .process .processSection .introBlock .head h2 {
+    font-size: 1.5rem;
+  }
+  .container .process .processSection .processBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container .process .processSection .processBlock .eachPrcoess {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
   .container .contact {
     padding: 20px 0px 60px 0px;
   }
@@ -1362,6 +1446,23 @@ html {
   }
   .container .projects .grid-projects .projectCard:hover img {
     opacity: 1;
+  }
+  .container .process {
+    padding: 0px 224px;
+  }
+  .container .process .processSection {
+    display: flex;
+    padding: 160px 0px;
+    gap: 40px;
+  }
+  .container .process .processSection .processBlock {
+    display: flex;
+    gap: 20px;
+  }
+  .container .process .processSection .processBlock .eachPrcoess {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 }
 
