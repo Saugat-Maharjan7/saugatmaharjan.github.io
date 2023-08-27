@@ -502,7 +502,7 @@
                 .processBlock{
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
+                    gap: 40px;
 
                     .eachPrcoess{
                         display: flex;
@@ -515,6 +515,61 @@
 
             }
             
+        }
+
+        //Testimonials Section
+        .testimonial{
+            margin: 80px 0px;
+            padding: 80px 20px;
+
+            //Main Content
+            .testimonialSection{
+
+                //Intro
+                .introBlock{
+
+                    //Heading
+                    .head{
+
+                        h2{
+                            width: 100%;
+                            font-size: $font-xl;
+                        }
+
+                    } 
+                }
+
+                //Sayings
+                .saying{
+                    display: flex;
+                    flex-direction: column;
+                    width: auto;
+                    gap: 16px;
+                    align-items: start;
+                    padding: 20px 16px;
+                    border-top: 1px solid $gray-500;
+                    border-bottom: 1px solid $gray-500; 
+
+                    //Avatar
+                    .avatar{
+                        width: 100%;
+    
+                        //Image
+                        .avatarImage{
+                            width: 64px;
+                            height: 64px;  
+                        }
+                        
+                        //Name
+                        .namePosition{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 4px;
+                        }
+                    }
+    
+                }
+            }
         }
 
         //Contact Section

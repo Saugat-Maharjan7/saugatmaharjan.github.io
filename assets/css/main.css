@@ -112,6 +112,7 @@ html {
   /*=============== SERVICES SECTION ===============*/
   /*=============== PROJECTS SECTION ===============*/
   /*=============== PROCESS SECTION ===============*/
+  /*=============== Testimonials SECTION ===============*/
   /*=============== CONTACT SECTION ===============*/
   /*=============== FOOTER ===============*/
 }
@@ -712,6 +713,77 @@ html {
 .container .process .processSection .processBlock .eachPrcoess h5 {
   font-size: 1.5rem;
 }
+.container .testimonial {
+  margin: 80px 0px;
+  padding: 160px 120px;
+}
+.container .testimonial .testimonialSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.container .testimonial .testimonialSection .introBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.container .testimonial .testimonialSection .introBlock .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+}
+.container .testimonial .testimonialSection .introBlock .head h2 {
+  width: 60%;
+}
+.container .testimonial .testimonialSection .saying {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 40px;
+  border-top: 1px solid #6B7280;
+  border-bottom: 1px solid #6B7280;
+}
+.container .testimonial .testimonialSection .saying p {
+  font-weight: 600;
+  color: #1F2937;
+  width: 100%;
+}
+.container .testimonial .testimonialSection .saying .avatar {
+  display: flex;
+  width: 40%;
+  gap: 16px;
+  align-items: center;
+}
+.container .testimonial .testimonialSection .saying .avatar .avatarImage {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.container .testimonial .testimonialSection .saying .avatar .avatarImage img {
+  width: auto;
+  height: 100%;
+}
+.container .testimonial .testimonialSection .saying .avatar .namePosition {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.container .testimonial .testimonialSection .saying .avatar .namePosition h4 {
+  font-weight: 600;
+  color: #111111;
+}
+.container .testimonial .testimonialSection .saying .avatar .namePosition p {
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.875rem;
+}
 .container .contact {
   display: flex;
   flex-direction: column;
@@ -1185,12 +1257,42 @@ html {
   .container .process .processSection .processBlock {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
   }
   .container .process .processSection .processBlock .eachPrcoess {
     display: flex;
     flex-direction: column;
     gap: 8px;
+  }
+  .container .testimonial {
+    margin: 80px 0px;
+    padding: 80px 20px;
+  }
+  .container .testimonial .testimonialSection .introBlock .head h2 {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  .container .testimonial .testimonialSection .saying {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 16px;
+    align-items: start;
+    padding: 20px 16px;
+    border-top: 1px solid #6B7280;
+    border-bottom: 1px solid #6B7280;
+  }
+  .container .testimonial .testimonialSection .saying .avatar {
+    width: 100%;
+  }
+  .container .testimonial .testimonialSection .saying .avatar .avatarImage {
+    width: 64px;
+    height: 64px;
+  }
+  .container .testimonial .testimonialSection .saying .avatar .namePosition {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
   .container .contact {
     padding: 20px 0px 60px 0px;
