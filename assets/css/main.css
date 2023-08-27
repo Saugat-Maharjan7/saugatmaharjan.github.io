@@ -715,7 +715,7 @@ html {
 }
 .container .testimonial {
   margin: 80px 0px;
-  padding: 160px 120px;
+  padding: 160px 240px;
 }
 .container .testimonial .testimonialSection {
   display: flex;
@@ -1638,6 +1638,10 @@ html {
     display: flex;
     flex-direction: column;
     gap: 16px;
+  }
+  .container .testimonial {
+    margin: 80px 0px;
+    padding: 160px 360px;
   }
 }
 
