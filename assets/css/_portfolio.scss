@@ -279,8 +279,13 @@
                             position: absolute;
                             width: 400px;
                             height: 400px;
+                            overflow: hidden;
                             left: 20px;
                             top: 20px;
+
+                            img{
+                                width: 100%;
+                            }
                         }
                     }
                 }
