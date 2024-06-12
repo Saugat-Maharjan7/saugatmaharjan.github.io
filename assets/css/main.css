@@ -1198,13 +1198,14 @@ html {
     width: 100%;
   }
   .container .projects .grid-projects .projectCard {
-    padding: 20px;
+    padding-bottom: 20px;
     width: auto;
   }
   .container .projects .grid-projects .projectCard .projectDetails {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding: 0px 24px;
   }
   .container .projects .grid-projects .projectCard .projectDetails .projectTitle {
     display: flex;
@@ -1246,9 +1247,6 @@ html {
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
     transform: translateX(0.25rem);
     color: white;
-  }
-  .container .projects .grid-projects .projectCard .projectImg {
-    border-radius: 20px;
   }
   .container .projects .grid-projects .column-1 {
     width: 100%;
@@ -1312,24 +1310,23 @@ html {
     width: 100%;
     font-size: 1.25rem;
   }
-  .container .testimonial .testimonialSection .saying {
+  .container .testimonial .testimonialSection .sayinggroup .saying {
     display: flex;
     flex-direction: column;
-    width: auto;
     gap: 16px;
     align-items: start;
     padding: 20px 16px;
     border-top: 1px solid #6B7280;
     border-bottom: 1px solid #6B7280;
   }
-  .container .testimonial .testimonialSection .saying .avatar {
+  .container .testimonial .testimonialSection .sayinggroup .saying .avatar {
     width: 100%;
   }
-  .container .testimonial .testimonialSection .saying .avatar .avatarImage {
+  .container .testimonial .testimonialSection .sayinggroup .saying .avatar .avatarImage {
     width: 64px;
     height: 64px;
   }
-  .container .testimonial .testimonialSection .saying .avatar .namePosition {
+  .container .testimonial .testimonialSection .sayinggroup .saying .avatar .namePosition {
     display: flex;
     flex-direction: column;
     gap: 4px;
