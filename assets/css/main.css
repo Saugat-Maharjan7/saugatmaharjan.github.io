@@ -106,6 +106,7 @@ html {
   flex-direction: column;
   width: 100vw;
   overflow-x: hidden;
+  background-color: #EDEEF1;
   /*=============== NAV SECTION ===============*/
   /*=============== HERO SECTION ===============*/
   /*=============== ABOUT SECTION ===============*/
@@ -120,7 +121,7 @@ html {
   display: flex;
   width: 100%;
   height: 80px;
-  background-color: #FFFFFF;
+  background-color: #EDEEF1;
   border-bottom: 1px solid #F3F4F6;
   align-items: center;
   position: fixed;
@@ -187,11 +188,12 @@ html {
   display: flex;
   width: 100%;
   height: 75vh;
-  background-color: #CEB6FF;
+  background-color: #111827;
   border: 2px solid #111111;
   justify-content: center;
   position: relative;
   border-radius: 20px;
+  border: 2px solid #111827;
   overflow: hidden;
 }
 .container .heroSection .titleSection .paperBG {
@@ -202,7 +204,7 @@ html {
 .container .heroSection .titleSection h1 {
   width: 60%;
   position: absolute;
-  color: #374151;
+  color: #9CA3AF;
 }
 .container .heroSection .titleSection .socialMedias {
   display: flex;
@@ -223,7 +225,7 @@ html {
 .container .heroSection .titleSection .socialMedias .media:hover {
   width: 32px;
   height: 32px;
-  box-shadow: -1px 1px 6px rgb(142, 54, 196);
+  box-shadow: -1px 1px 6px rgb(0, 0, 0);
 }
 .container .heroSection .titleSection .downloadCV {
   bottom: 80px;
@@ -232,16 +234,16 @@ html {
   position: absolute;
   width: 180px;
   height: 180px;
-  background-color: #DDFFFA;
+  background-color: #F3F4F6;
   border-radius: 999px;
-  border: 1px solid #296B60;
+  border: 1px solid #1F2937;
   justify-content: center;
   align-items: center;
-  box-shadow: -2px 6px 2px rgba(52, 116, 106, 0.3);
+  box-shadow: -2px 6px 2px 0px rgba(185, 185, 185, 0.3);
 }
 .container .heroSection .titleSection .downloadCV:hover {
-  background-color: #C3FCF3;
-  box-shadow: -2px 6px 2px rgba(52, 116, 106, 0.5);
+  background-color: #F9FAFB;
+  box-shadow: -2px 6px 2px 0px rgba(224, 224, 224, 0.5);
 }
 .container .heroSection .titleSection .downloadCV a {
   display: flex;
@@ -251,10 +253,13 @@ html {
   font-family: "Sentient", serif;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #2C1F47;
+  color: #1F2937;
   justify-content: center;
   align-items: center;
   transform: rotate(-18.94deg);
+}
+.container .heroSection .titleSection .downloadCV a:hover {
+  color: #111827;
 }
 .container .heroSection .titleSection .dividerTriangle {
   width: 100%;
@@ -286,7 +291,7 @@ html {
 }
 .container .about {
   margin: 80px 0px;
-  padding: 160px 120px;
+  padding: 120px 120px;
 }
 .container .about .aboutSection {
   display: flex;
@@ -401,7 +406,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 80px 120px;
-  background-color: #EFE7FF;
+  background-color: #1F2937;
   align-items: center;
   justify-content: center;
 }
@@ -418,6 +423,12 @@ html {
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
+}
+.container .services .servicesSection .servicesIntro h4 {
+  color: #D1D5DB;
+}
+.container .services .servicesSection .servicesIntro h2 {
+  color: #F3F4F6;
 }
 .container .services .servicesSection .servicesCards {
   display: flex;
@@ -496,7 +507,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 160px 160px;
-  background-color: #FFFFFF;
+  background-color: #EDEEF1;
   align-items: center;
   justify-content: center;
 }
@@ -537,14 +548,33 @@ html {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  padding: 40px;
+  padding-bottom: 32px;
   width: auto;
   gap: 24px;
+  border: 2px solid #9CA3AF;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #F9FAFB;
+}
+.container .projects .grid-projects .projectCard .projectImg {
+  display: flex;
+  width: 100%;
+  height: 315px;
+  overflow: hidden;
+}
+.container .projects .grid-projects .projectCard .projectImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
 }
 .container .projects .grid-projects .projectCard .projectDetails {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .container .projects .grid-projects .projectCard .projectDetails .projectTitle {
   display: flex;
@@ -577,52 +607,17 @@ html {
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
   font-weight: 600;
-  color: white;
+  color: blue;
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
   transform: translateX(0.25rem);
-  color: white;
-}
-.container .projects .grid-projects .projectCard .projectImg {
-  display: flex;
-  width: 100%;
-  height: 315px;
-  overflow: hidden;
-  border-radius: 20px;
-}
-.container .projects .grid-projects .projectCard .projectImg img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 0.9;
+  color: blue;
 }
 .container .projects .grid-projects .projectCard:hover {
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
 .container .projects .grid-projects .projectCard:hover img {
   opacity: 1;
-}
-.container .projects .grid-projects .project1 {
-  background-color: #67E8F9;
-}
-.container .projects .grid-projects .project2 {
-  background-color: #86EFAC;
-}
-.container .projects .grid-projects .project3 {
-  background-color: #F0ABFC;
-}
-.container .projects .grid-projects .project4 {
-  background-color: #FDBA74;
-}
-.container .projects .grid-projects .project5 {
-  background-color: #FDE047;
-}
-.container .projects .grid-projects .project6 {
-  background-color: #A5B4FC;
-}
-.container .projects .grid-projects .project7 {
-  background-color: #F9A8D4;
 }
 .container .projects .grid-projects .column-2 {
   display: flex;
@@ -653,13 +648,13 @@ html {
   z-index: -1;
   position: absolute;
   height: 100%;
-  background-color: #7F63B9;
+  background-color: #FFFFFF;
   width: 100%;
   left: -100%;
   transition: ease-in 0.2s;
 }
 .container .projects .grid-projects .column-2 .linkButton:hover {
-  color: #FFFFFF;
+  color: #111111;
   border: 1px solid #111111;
 }
 .container .projects .grid-projects .column-2 .linkButton:hover svg {
@@ -671,7 +666,7 @@ html {
 .container .process {
   display: flex;
   padding: 0px 120px;
-  background-color: #F9FAFB;
+  background-color: #1F2937;
 }
 .container .process .processSection {
   display: flex;
@@ -680,6 +675,9 @@ html {
   width: 100%;
   align-items: center;
   gap: 20px;
+}
+.container .process .processSection .introBlock h4 {
+  color: #D1D5DB;
 }
 .container .process .processSection .introBlock .head {
   display: flex;
@@ -690,9 +688,11 @@ html {
   width: 90%;
   text-align: left;
   text-transform: capitalize;
+  color: #F3F4F6;
 }
 .container .process .processSection .introBlock .head p {
   width: 90%;
+  color: #F9FAFB;
 }
 .container .process .processSection .processBlock {
   display: flex;
@@ -713,26 +713,30 @@ html {
   justify-content: center;
 }
 .container .process .processSection .processBlock .eachPrcoess .process1 {
-  background-color: #F0ABFC;
+  background-color: #E5E7EB;
 }
 .container .process .processSection .processBlock .eachPrcoess .process2 {
-  background-color: #FDBA74;
+  background-color: #E5E7EB;
 }
 .container .process .processSection .processBlock .eachPrcoess .process3 {
-  background-color: #86EFAC;
+  background-color: #E5E7EB;
 }
 .container .process .processSection .processBlock .eachPrcoess h5 {
   font-size: 1.5rem;
+  color: #F3F4F6;
+}
+.container .process .processSection .processBlock .eachPrcoess p {
+  color: #F9FAFB;
 }
 .container .testimonial {
   margin: 80px 0px;
-  padding: 160px 240px;
+  padding: 100px 240px;
 }
 .container .testimonial .testimonialSection {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 80px;
+  gap: 64px;
 }
 .container .testimonial .testimonialSection .introBlock {
   display: flex;
@@ -750,47 +754,53 @@ html {
 .container .testimonial .testimonialSection .introBlock .head h2 {
   width: 60%;
 }
-.container .testimonial .testimonialSection .saying {
+.container .testimonial .testimonialSection .sayinggroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .testimonial .testimonialSection .sayinggroup .saying {
   display: flex;
   width: 90%;
   justify-content: space-between;
   gap: 20px;
   align-items: center;
   padding: 40px;
-  border-top: 1px solid #6B7280;
-  border-bottom: 1px solid #6B7280;
+  border: 1px solid #6B7280;
+  border-radius: 8px;
+  background-color: #FFFFFF;
 }
-.container .testimonial .testimonialSection .saying p {
+.container .testimonial .testimonialSection .sayinggroup .saying p {
   font-weight: 600;
   color: #1F2937;
   width: 100%;
 }
-.container .testimonial .testimonialSection .saying .avatar {
+.container .testimonial .testimonialSection .sayinggroup .saying .avatar {
   display: flex;
   width: 40%;
   gap: 16px;
   align-items: center;
 }
-.container .testimonial .testimonialSection .saying .avatar .avatarImage {
+.container .testimonial .testimonialSection .sayinggroup .saying .avatar .avatarImage {
   width: 80px;
   height: 80px;
   align-items: center;
   justify-content: center;
 }
-.container .testimonial .testimonialSection .saying .avatar .avatarImage img {
+.container .testimonial .testimonialSection .sayinggroup .saying .avatar .avatarImage img {
   width: auto;
   height: 100%;
 }
-.container .testimonial .testimonialSection .saying .avatar .namePosition {
+.container .testimonial .testimonialSection .sayinggroup .saying .avatar .namePosition {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-.container .testimonial .testimonialSection .saying .avatar .namePosition h4 {
+.container .testimonial .testimonialSection .sayinggroup .saying .avatar .namePosition h4 {
   font-weight: 600;
   color: #111111;
 }
-.container .testimonial .testimonialSection .saying .avatar .namePosition p {
+.container .testimonial .testimonialSection .sayinggroup .saying .avatar .namePosition p {
   font-weight: 500;
   color: #374151;
   font-size: 0.875rem;
@@ -798,7 +808,7 @@ html {
 .container .contact {
   display: flex;
   flex-direction: column;
-  background-color: #DDFFFA;
+  background-color: #1F2937;
   padding: 60px 160px 200px 160px;
   align-items: center;
   gap: 80px;
@@ -815,7 +825,11 @@ html {
   align-items: center;
   gap: 16px;
 }
+.container .contact .emailMe .textSection h1 {
+  color: #F3F4F6;
+}
 .container .contact .emailMe .textSection p {
+  color: #F9FAFB;
   text-align: center;
 }
 .container .contact .sayHi {
@@ -850,28 +864,32 @@ html {
   justify-content: center;
   gap: 16px;
   text-decoration: none;
-  border: 1px solid #1F2937;
-  color: #111111;
+  border: 1px solid #9CA3AF;
+  color: #F9FAFB;
 }
 .container .contact .linkButton::after {
   content: "";
   z-index: -1;
   position: absolute;
   height: 100%;
-  background-color: #7F63B9;
+  background-color: #FFFFFF;
   width: 100%;
   left: -100%;
   transition: ease-in 0.2s;
 }
 .container .contact .linkButton:hover {
-  color: #FFFFFF;
-  border: 1px solid #111111;
+  color: #111111;
+  border: 1px solid #FFFFFF;
 }
 .container .contact .linkButton:hover svg {
-  color: #FFFFFF;
+  color: #111111;
 }
 .container .contact .linkButton:hover::after {
   left: 0;
+  color: #111111;
+}
+.container .contact h3 {
+  color: #F3F4F6;
 }
 .container .footer {
   display: flex;
