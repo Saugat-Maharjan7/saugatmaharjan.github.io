@@ -90,11 +90,13 @@
             //Title Section
             .titleSection{
                 height: 70vh;
+                background-color: $gray-900;
 
                 //Main Heading
                 h1{
                     width: 80%;
                     font-size: $font-2xl;
+                    color: $gray-400;
                 }
 
                 //CV Download
@@ -104,9 +106,12 @@
                     bottom: 140px;
                     right: 20px;
                     z-index: 998;
+                    background-color: $gray-100;
+                    border: 1px solid $gray-800;
 
                     a{
                         font-size: $font-base;
+                        color: $gray-800;
                     }
                 }
 
@@ -304,6 +309,7 @@
         //Services Section
         .services{
             padding: 40px 20px;
+            background-color: $gray-800;
             overflow: hidden;
 
              //Services Content
@@ -314,9 +320,15 @@
                 .servicesIntro{
                     margin-top: 40px;
                     width: 90%;
+
+                    h4{
+                        color: $gray-300;
+                    }
+                    
                     h2{
                         width: 100%;
                         font-size: $font-xl;
+                        color: $gray-100;
                     }
                 }
 

@@ -995,10 +995,12 @@ html {
   }
   .container .heroSection .titleSection {
     height: 70vh;
+    background-color: #111827;
   }
   .container .heroSection .titleSection h1 {
     width: 80%;
     font-size: 1.5rem;
+    color: #9CA3AF;
   }
   .container .heroSection .titleSection .downloadCV {
     width: 120px;
@@ -1006,9 +1008,12 @@ html {
     bottom: 140px;
     right: 20px;
     z-index: 998;
+    background-color: #F3F4F6;
+    border: 1px solid #1F2937;
   }
   .container .heroSection .titleSection .downloadCV a {
     font-size: 1rem;
+    color: #1F2937;
   }
   .container .heroSection .titleSection .dividerTriangle {
     width: 100%;
@@ -1142,6 +1147,7 @@ html {
   }
   .container .services {
     padding: 40px 20px;
+    background-color: #1F2937;
     overflow: hidden;
   }
   .container .services .servicesSection {
@@ -1151,9 +1157,13 @@ html {
     margin-top: 40px;
     width: 90%;
   }
+  .container .services .servicesSection .servicesIntro h4 {
+    color: #D1D5DB;
+  }
   .container .services .servicesSection .servicesIntro h2 {
     width: 100%;
     font-size: 1.25rem;
+    color: #F3F4F6;
   }
   .container .services .servicesSection .servicesCards {
     flex-direction: column;
