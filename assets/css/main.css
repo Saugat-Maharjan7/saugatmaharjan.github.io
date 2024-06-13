@@ -1242,11 +1242,11 @@ html {
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
     font-weight: 600;
-    color: white;
+    color: blue;
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
     transform: translateX(0.25rem);
-    color: white;
+    color: blue;
   }
   .container .projects .grid-projects .column-1 {
     width: 100%;
@@ -1594,7 +1594,7 @@ html {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 40px;
+    padding-bottom: 40px;
     width: auto;
     gap: 24px;
   }
@@ -1634,11 +1634,11 @@ html {
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
     font-weight: 600;
-    color: white;
+    color: blue;
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
     transform: translateX(0.25rem);
-    color: white;
+    color: blue;
   }
   .container .projects .grid-projects .projectCard .projectImg {
     display: flex;

@@ -435,21 +435,17 @@
                             &:hover{
                                 h6{
                                     font-weight: 600;
-                                    color: white;
+                                    color: blue;
                                 }
                                 svg{
                                     transform: translateX(.25rem);
-                                    color: white;
+                                    color: blue;
                                 }
                             }
                         }
                     }
                 }
 
-                //Project Image
-                .projectImg{
-
-                }
 
             }
 
@@ -1086,7 +1082,7 @@
                 display: flex;
                 flex-direction: column;
                 border-radius: 20px;
-                padding: 40px;
+                padding-bottom: 40px;
                 width: auto;
                 gap: 24px;
 
@@ -1136,11 +1132,11 @@
                             &:hover{
                                 h6{
                                     font-weight: 600;
-                                    color: white;
+                                    color: blue;
                                 }
                                 svg{
                                     transform: translateX(.25rem);
-                                    color: white;
+                                    color: blue;
                                 }
                             }
                         }
