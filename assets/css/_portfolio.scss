@@ -17,6 +17,12 @@
         align-items: center;
         position: fixed;
         z-index: 999;
+        transition: background-color 0.4 ease-in-out;
+
+        nav .scrolled{
+            background-color: red;
+            transition: color 0.4s ease-in-out;
+        }
 
             //Inner Nav Container
             .navContent{
