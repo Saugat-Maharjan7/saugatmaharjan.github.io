@@ -1698,11 +1698,15 @@ html {
   /*=============== USER PERSONA ===============*/
   /*=============== WIREFRAME ===============*/
   /*=============== STYLE GUIDE ===============*/
+  /*=============== MOCKUP ===============*/
   /*=============== LINK TO FIGMA ===============*/
   /*=============== KEY TAKEAWAY ===============*/
   /*=============== CONTACT ===============*/
 }
 .container .casestudyContainer {
+  background-color: #FFFFFF;
+}
+.container .projectHead {
   background-color: #FFFFFF;
 }
 .container .overviewSection {
@@ -1813,6 +1817,9 @@ html {
   padding: 80px 320px;
   gap: 40px;
 }
+.container .processFlow {
+  background-color: #FFFFFF;
+}
 .container .designProcess {
   display: flex;
   flex-direction: column;
@@ -1881,6 +1888,9 @@ html {
 .container .initialResearchSection .painPointsFlow .painPoint p {
   text-align: center;
 }
+.container .competitiveAnalysisSection {
+  background-color: #FFFFFF;
+}
 .container .competetiveAnalysis {
   display: flex;
   flex-direction: column;
@@ -1889,6 +1899,9 @@ html {
 }
 .container .userPersonaSection {
   background-color: #F3F7FF;
+}
+.container .wireframeSection {
+  background-color: #FFFFFF;
 }
 .container .wireFrame {
   display: flex;
@@ -1908,6 +1921,9 @@ html {
   flex-direction: column;
   padding: 140px 320px;
   gap: 40px;
+}
+.container .mockupSection {
+  background-color: #FFFFFF;
 }
 .container .figmaLinkSection {
   background-color: #F3F7FF;
@@ -1930,6 +1946,7 @@ html {
   color: #0088FC;
 }
 .container .keyTakeaway {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   padding: 140px 320px;

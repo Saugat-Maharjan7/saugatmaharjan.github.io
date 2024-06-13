@@ -9,6 +9,10 @@
 
     /*=============== OVERVIEW ===============*/
         
+        .projectHead{
+            background-color: $white;
+        }   
+
         //Common Heading
         .overviewSection{
             display:flex; 
@@ -157,6 +161,11 @@
 
     /*=============== DESIGN PROCESS ===============*/    
         
+
+        .processFlow{
+            background-color: $white;
+        }
+
         //Design Flow
         .designProcess{
             display:flex;
@@ -241,9 +250,14 @@
             }
         }
 
-    /*=============== COMPETETIVE ANALYSIS ===============*/  
+    /*=============== COMPETETIVE ANALYSIS ===============*/
+
+        .competitiveAnalysisSection{
+            background-color: $white;
+        }
 
         .competetiveAnalysis{
+
                 display:flex;
                 flex-direction: column; 
                 padding: 140px 320px; 
@@ -257,6 +271,11 @@
         }
 
     /*=============== WIREFRAME ===============*/ 
+
+        .wireframeSection{
+            background-color: $white;
+        }
+
 
         .wireFrame{
             display:flex;
@@ -283,6 +302,14 @@
             }
 
         }
+
+
+    /*=============== MOCKUP ===============*/ 
+
+        .mockupSection{
+            background-color: $white;
+        }
+
 
     /*=============== LINK TO FIGMA ===============*/ 
 
@@ -315,7 +342,8 @@
     /*=============== KEY TAKEAWAY ===============*/ 
 
     .keyTakeaway{
-        display:flex;
+            background-color: $white;
+            display:flex;
             flex-direction: column; 
             padding: 140px 320px; 
             gap: 40px;
