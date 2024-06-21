@@ -6,6 +6,34 @@
         background-color: $white;
     }
     
+    <!--=============== NAVBAR ===============-->
+    <nav>
+
+        <div class="navContent">
+
+                <!-- Logo -->
+                <a href="index.html">
+                    <img src="assets/src/images/Logo-navbar/Logo.png" alt="">
+                </a>
+
+                <input type="checkbox" id="check">
+
+                 <!-- NavTabs -->   
+                <span class="navTabs">
+
+                    <li><a href="index.html">HOME</a></li>
+                    <!-- <li><a href="index.html">SERVICES</a></li>
+                    <li><a href="#">PROJECTS</a></li> -->
+                    <li><a href="#contact">CONTACT</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+
+                </span>
+                
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+
+        </div>
+
+    </nav>
 
     /*=============== OVERVIEW ===============*/
         
@@ -131,11 +159,11 @@
                             &:hover{
                                 h6{
                                     font-weight: 600;
-                                    color: $purple-500;
+                                    color: $hover-font;
                                 }
                                 svg{
                                     transform: translateX(.25rem);
-                                    color: $purple-500;
+                                    color: $hover-font;
                                 }
                             }
                         }
@@ -333,7 +361,10 @@
 
             a{
                 p{
-                    color: $color-font;
+                    color: $hover-font;
+                }
+                :hover{
+                    font-weight: 600;
                 }
             }
         }
@@ -376,6 +407,9 @@
                 a{
                     p{
                         color: $color-font;
+                    }
+                    :hover{
+                        font-weight: 600;
                     }
                 }
             }

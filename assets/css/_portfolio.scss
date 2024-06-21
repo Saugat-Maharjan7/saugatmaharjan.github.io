@@ -56,6 +56,7 @@
             
                             &:hover{
                                 text-decoration: underline;
+                                color: $hover-font;
                                 font-weight: 600;
                                     }
                         }
@@ -183,7 +184,7 @@
                     transform: rotate(-18.94deg);
 
                     &:hover{
-                        color: $gray-900;
+                        color: $hover-font;
                     }
                 }
 
@@ -647,11 +648,11 @@
                             &:hover{
                                 h6{
                                     font-weight: 600;
-                                    color: blue;
+                                    color: $hover-font;
                                 }
                                 svg{
                                     transform: translateX(.25rem);
-                                    color: blue;
+                                    color: $hover-font;
                                 }
                             }
                         }
@@ -739,7 +740,7 @@
 
                     &:hover{
 
-                        color: $black;
+                        color: $hover-font;
                         border: 1px solid $black;
 
                         svg{

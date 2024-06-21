@@ -160,6 +160,7 @@ html {
 }
 .container nav .navContent .navTabs li a:hover {
   text-decoration: underline;
+  color: #1D4ED8;
   font-weight: 600;
 }
 .container nav .navContent .open-menu, .container nav .navContent .close-menu {
@@ -264,7 +265,7 @@ html {
   transform: rotate(-18.94deg);
 }
 .container .heroSection .titleSection .downloadCV a:hover {
-  color: #111827;
+  color: #1D4ED8;
 }
 .container .heroSection .titleSection .dividerTriangle {
   width: 100%;
@@ -612,11 +613,11 @@ html {
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover h6 {
   font-weight: 600;
-  color: blue;
+  color: #1D4ED8;
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a:hover svg {
   transform: translateX(0.25rem);
-  color: blue;
+  color: #1D4ED8;
 }
 .container .projects .grid-projects .projectCard:hover {
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
@@ -659,7 +660,7 @@ html {
   transition: ease-in 0.2s;
 }
 .container .projects .grid-projects .column-2 .linkButton:hover {
-  color: #111111;
+  color: #1D4ED8;
   border: 1px solid #111111;
 }
 .container .projects .grid-projects .column-2 .linkButton:hover svg {
@@ -1802,11 +1803,11 @@ html {
 }
 .container .projectContent .projectOverview .overview .showProject a:hover h6 {
   font-weight: 600;
-  color: #7F63B9;
+  color: #1D4ED8;
 }
 .container .projectContent .projectOverview .overview .showProject a:hover svg {
   transform: translateX(0.25rem);
-  color: #7F63B9;
+  color: #1D4ED8;
 }
 .container .context {
   background-color: #F3F7FF;
@@ -1943,7 +1944,10 @@ html {
   align-items: center;
 }
 .container .figmaLinkSection .figmaLink a p {
-  color: #0088FC;
+  color: #1D4ED8;
+}
+.container .figmaLinkSection .figmaLink a :hover {
+  font-weight: 600;
 }
 .container .keyTakeaway {
   background-color: #FFFFFF;
@@ -1974,6 +1978,9 @@ html {
 }
 .container .contactMe .messageMe a p {
   color: #0088FC;
+}
+.container .contactMe .messageMe a :hover {
+  font-weight: 600;
 }
 
 /*=============== Responsive CaseStudy ===============*/
