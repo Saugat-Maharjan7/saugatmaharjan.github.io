@@ -89,7 +89,7 @@
 
     /*=============== HERO SECTION ===============*/
     .heroSection{
-        display: none;
+        display: flex;
         flex-direction: column;
         height: 90vh;
         margin-top: 120px;
@@ -234,7 +234,7 @@
 
     /*=============== HERO SECTION V2 ===============*/
     .hero2{
-        display: flex;
+        display: none;
         color: $gray-800;
         height: 92vh;
         margin-top: 60px;
