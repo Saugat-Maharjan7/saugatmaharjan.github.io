@@ -89,7 +89,7 @@
 
     /*=============== HERO SECTION ===============*/
     .heroSection{
-        display: flex;
+        display: none;
         flex-direction: column;
         height: 90vh;
         margin-top: 120px;
@@ -232,35 +232,35 @@
         }
     }
 
-    /*=============== HERO2 SECTION ===============*/
+    /*=============== HERO SECTION V2 ===============*/
     .hero2{
         display: flex;
         color: $gray-800;
-        height: 94vh;
+        height: 92vh;
         margin-top: 60px;
         padding: 0px 240px;
         align-items: center;
         background-color: $gray-800;
         position: relative;
 
+        //HeroContainer
         .hero2Section{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-content: space-between;
             align-items: center;
-
-    
+  
             .hero2Content{
                 display: flex;
                 flex-direction: column;
-                gap: 32px;
+                gap: 24px;
                 width: 50%;
     
                 .mainHead2Container{
                     display: flex;
                     flex-direction: column;
-                    gap: 16px;
+                    gap: 8px;
     
                     .mainHead2{
                         display: flex;
@@ -268,14 +268,14 @@
                         gap: 8px;
     
                         h3{
-                            color: $gray-300;
+                            color: $gray-400;
+                            font-size: 18px;
                         }
     
                         h1{
                             padding-top: 0px;
                             color: $white;
                             text-align: left;
-                            font-size: 60px;
                             line-height: 140%;
                         }
                     }
@@ -304,25 +304,24 @@
                                     &:hover{
                                         width: 32px;
                                         height: 32px;
-                                        box-shadow: -1px 1px 6px rgb(255, 255, 255);
+                                        box-shadow: -1px 1px 6px rgb(0, 0, 0);
                                     }
                                 }
                 }
-    
-    
+       
             }
     
             .imageSection{
                 display: flex;
                 z-index: 998;
                 right: 0;
-    
+                height: 480px;
             }
     
             //CV Download
             .downloadCV{
                             bottom: 80px;
-                            right: 220px;
+                            right: 200px;
                             display: flex;
                             position: absolute;
                             width: 180px;
@@ -333,7 +332,7 @@
                             justify-content: center;
                             align-items: center;
                             box-shadow: -2px 6px 2px 0px rgba(185, 185, 185, 0.30);;
-                            z-index: 999;
+                            z-index: 998;
             
                             &:hover{
                                 background-color: $gray-50;
@@ -367,7 +366,7 @@
                 width: 100%;
                 position: absolute;
                 bottom: -6px;
-                z-index: 999;
+                z-index: 998;
                 left: 0;
                 align-content: center;
                 justify-content: center;
