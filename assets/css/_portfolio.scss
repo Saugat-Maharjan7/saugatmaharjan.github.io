@@ -164,6 +164,7 @@
                 justify-content: center;
                 align-items: center;
                 box-shadow: -2px 6px 2px 0px rgba(185, 185, 185, 0.30);;
+                z-index: 999;
 
                 &:hover{
                     background-color: $gray-50;
