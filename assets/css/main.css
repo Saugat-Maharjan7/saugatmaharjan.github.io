@@ -247,7 +247,7 @@ html {
   justify-content: center;
   align-items: center;
   box-shadow: -2px 6px 2px 0px rgba(185, 185, 185, 0.3);
-  z-index: 999;
+  z-index: 998;
 }
 .container .heroSection .titleSection .downloadCV:hover {
   background-color: #F9FAFB;
