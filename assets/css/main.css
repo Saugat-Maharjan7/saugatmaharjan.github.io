@@ -903,6 +903,7 @@ html {
   font-weight: 600;
   color: #1F2937;
   width: 100%;
+  text-align: justify;
 }
 .container .testimonial .testimonialSection .sayinggroup .saying .avatar {
   display: flex;
