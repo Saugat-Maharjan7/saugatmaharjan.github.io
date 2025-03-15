@@ -28,6 +28,10 @@
                 color: $color-font; 
                 text-transform: uppercase;
             }
+
+            p{
+                text-align: justify;
+            }
         }
 
         //Overview Description
@@ -122,7 +126,8 @@
                                 font-style: normal;
                                 font-weight: 600;
                                 line-height: 20px;
-                                color: $gray-800;
+                                color: $hover-font;
+                                text-decoration: underline;
                             }
 
                             //Right-Arrow
@@ -248,6 +253,7 @@
 
                     p{
                         text-align: center;
+                        text-align: justify;
                     }
                 }
             }

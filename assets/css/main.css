@@ -478,6 +478,9 @@ html {
 .container .about .aboutSection .aboutMe .aboutImage .frameBackground .photoPlace img {
   width: 100%;
 }
+.container .about .aboutSection .aboutMe .aboutParagraph p {
+  text-align: justify;
+}
 .container .about .aboutSection .stats {
   margin-top: 120px;
   width: 70%;
@@ -595,6 +598,7 @@ html {
   /* or 27px */
   letter-spacing: 0.02em;
   color: #374151;
+  text-align: justify;
 }
 .container .services .servicesSection .servicesCards .cards .toolsService {
   display: flex;
@@ -1845,6 +1849,9 @@ html {
   color: #0088FC;
   text-transform: uppercase;
 }
+.container .overviewSection p {
+  text-align: justify;
+}
 .container .projectContent .thumbnail {
   display: flex;
   justify-content: center;
@@ -1920,7 +1927,8 @@ html {
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
-  color: #1F2937;
+  color: #1D4ED8;
+  text-decoration: underline;
 }
 .container .projectContent .projectOverview .overview .showProject a svg {
   color: #1F2937;
@@ -2012,6 +2020,7 @@ html {
 }
 .container .initialResearchSection .painPointsFlow .painPoint p {
   text-align: center;
+  text-align: justify;
 }
 .container .competitiveAnalysisSection {
   background-color: #FFFFFF;
