@@ -9,7 +9,7 @@
 /*=============== BODY PROPERTIES ===============*/
 body {
   font-family: "Sentient", serif;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Figtree", sans-serif;
   overflow-x: hidden;
 }
 
@@ -58,7 +58,7 @@ h6 {
 
 /*=============== Paragraphs ===============*/
 p {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
@@ -108,15 +108,6 @@ html {
   overflow-x: hidden;
   background-color: #EDEEF1;
   /*=============== NAV SECTION ===============*/
-  /*=============== HERO SECTION ===============*/
-  /*=============== HERO SECTION V2 ===============*/
-  /*=============== ABOUT SECTION ===============*/
-  /*=============== SERVICES SECTION ===============*/
-  /*=============== PROJECTS SECTION ===============*/
-  /*=============== PROCESS SECTION ===============*/
-  /*=============== Testimonials SECTION ===============*/
-  /*=============== CONTACT SECTION ===============*/
-  /*=============== FOOTER ===============*/
 }
 .container nav {
   display: flex;
@@ -152,7 +143,7 @@ html {
   list-style-type: none;
 }
 .container nav .navContent .navTabs li a {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 1rem;
   text-decoration: none;
   color: #111111;
@@ -182,6 +173,9 @@ html {
 }
 .container nav .navContent #check {
   display: none;
+}
+.container {
+  /*=============== HERO SECTION ===============*/
 }
 .container .heroSection {
   display: flex;
@@ -296,6 +290,9 @@ html {
 }
 .container .heroSection .toolsUse .tools {
   padding: 0px 24px;
+}
+.container {
+  /*=============== HERO SECTION V2 ===============*/
 }
 .container .hero2 {
   display: none;
@@ -417,6 +414,9 @@ html {
 .container .hero2 .dividerTriangle img {
   width: 100%;
 }
+.container {
+  /*=============== ABOUT SECTION ===============*/
+}
 .container .about {
   margin: 80px 0px;
   padding: 120px 120px;
@@ -533,6 +533,9 @@ html {
   flex-direction: row;
   gap: 80px;
 }
+.container {
+  /*=============== SERVICES SECTION ===============*/
+}
 .container .services {
   display: flex;
   flex-direction: column;
@@ -590,7 +593,7 @@ html {
 }
 .container .services .servicesSection .servicesCards .cards .title p {
   min-height: 216px;
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;
@@ -635,6 +638,9 @@ html {
   background-size: cover;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
   transition: 2s ease-in;
+}
+.container {
+  /*=============== PROJECTS SECTION ===============*/
 }
 .container .projects {
   display: flex;
@@ -728,7 +734,7 @@ html {
   gap: 8px;
 }
 .container .projects .grid-projects .projectCard .projectDetails .showProject a h6 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
@@ -766,15 +772,6 @@ html {
   font-family: "Sentient", serif;
   border-radius: 5px;
   font-weight: 500;
-  display: flex;
-  flex-direction: row;
-  padding: 16px 32px;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  text-decoration: none;
-  border: 1px solid #1F2937;
-  color: #111111;
 }
 .container .projects .grid-projects .column-2 .linkButton::after {
   content: "";
@@ -786,6 +783,17 @@ html {
   left: -100%;
   transition: ease-in 0.2s;
 }
+.container .projects .grid-projects .column-2 .linkButton {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+  border: 1px solid #1F2937;
+  color: #111111;
+}
 .container .projects .grid-projects .column-2 .linkButton:hover {
   color: #1D4ED8;
   border: 1px solid #111111;
@@ -795,6 +803,9 @@ html {
 }
 .container .projects .grid-projects .column-2 .linkButton:hover::after {
   left: 0;
+}
+.container {
+  /*=============== PROCESS SECTION ===============*/
 }
 .container .process {
   display: flex;
@@ -860,6 +871,9 @@ html {
 }
 .container .process .processSection .processBlock .eachPrcoess p {
   color: #F9FAFB;
+}
+.container {
+  /*=============== Testimonials SECTION ===============*/
 }
 .container .testimonial {
   margin: 80px 0px;
@@ -939,6 +953,9 @@ html {
   color: #374151;
   font-size: 0.875rem;
 }
+.container {
+  /*=============== CONTACT SECTION ===============*/
+}
 .container .contact {
   display: flex;
   flex-direction: column;
@@ -991,15 +1008,6 @@ html {
   overflow: hidden;
   font-family: "Sentient", serif;
   border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-  padding: 16px 32px;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  text-decoration: none;
-  border: 1px solid #9CA3AF;
-  color: #F9FAFB;
 }
 .container .contact .linkButton::after {
   content: "";
@@ -1010,6 +1018,17 @@ html {
   width: 100%;
   left: -100%;
   transition: ease-in 0.2s;
+}
+.container .contact .linkButton {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+  border: 1px solid #9CA3AF;
+  color: #F9FAFB;
 }
 .container .contact .linkButton:hover {
   color: #111111;
@@ -1024,6 +1043,9 @@ html {
 }
 .container .contact h3 {
   color: #F3F4F6;
+}
+.container {
+  /*=============== FOOTER ===============*/
 }
 .container .footer {
   display: flex;
@@ -1053,10 +1075,6 @@ html {
 /*=============== Responsive ===============*/
 .container {
   /* For small devices */
-  /* For small screens devices */
-  /* For laptop screens devices */
-  /* For large devices */
-  /* For tablet and medium devices */
 }
 @media screen and (max-width: 768px) {
   .container nav {
@@ -1089,7 +1107,7 @@ html {
     margin-top: 60px;
   }
   .container nav .navContent .navTabs li a {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Figtree", sans-serif;
     font-size: 1rem;
     text-decoration: none;
     color: #111111;
@@ -1364,7 +1382,7 @@ html {
     gap: 8px;
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a h6 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Figtree", sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
@@ -1487,6 +1505,9 @@ html {
     text-align: center;
   }
 }
+.container {
+  /* For small screens devices */
+}
 @media screen and (min-width: 993px) {
   .container .heroSection {
     margin-top: 120px;
@@ -1601,6 +1622,9 @@ html {
     font-size: 1rem;
   }
 }
+.container {
+  /* For laptop screens devices */
+}
 @media screen and (min-width: 1400px) {
   .container .heroSection {
     margin-top: 120px;
@@ -1633,6 +1657,9 @@ html {
   .container .services .servicesSection .servicesCards .cards .toolsService h4 {
     font-size: 1rem;
   }
+}
+.container {
+  /* For large devices */
 }
 @media screen and (min-width: 1920px) {
   .container nav {
@@ -1756,7 +1783,7 @@ html {
     gap: 8px;
   }
   .container .projects .grid-projects .projectCard .projectDetails .showProject a h6 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Figtree", sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
@@ -1815,25 +1842,17 @@ html {
     padding: 160px 360px;
   }
 }
+.container {
+  /* For tablet and medium devices */
+}
 
 /*=============== COLORS ===============*/
 /*=============== TYPOGRAPHY ===============*/
-.container {
-  /*=============== OVERVIEW ===============*/
-  /*=============== CONTEXT ===============*/
-  /*=============== DESIGN PROCESS ===============*/
-  /*=============== RESEARCH SECTION ===============*/
-  /*=============== COMPETETIVE ANALYSIS ===============*/
-  /*=============== USER PERSONA ===============*/
-  /*=============== WIREFRAME ===============*/
-  /*=============== STYLE GUIDE ===============*/
-  /*=============== MOCKUP ===============*/
-  /*=============== LINK TO FIGMA ===============*/
-  /*=============== KEY TAKEAWAY ===============*/
-  /*=============== CONTACT ===============*/
-}
 .container .casestudyContainer {
   background-color: #FFFFFF;
+}
+.container {
+  /*=============== OVERVIEW ===============*/
 }
 .container .projectHead {
   background-color: #FFFFFF;
@@ -1922,7 +1941,7 @@ html {
   gap: 8px;
 }
 .container .projectContent .projectOverview .overview .showProject a h6 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
@@ -1941,6 +1960,9 @@ html {
   transform: translateX(0.25rem);
   color: #1D4ED8;
 }
+.container {
+  /*=============== CONTEXT ===============*/
+}
 .container .context {
   background-color: #F3F7FF;
 }
@@ -1949,6 +1971,9 @@ html {
   flex-direction: column;
   padding: 80px 320px;
   gap: 40px;
+}
+.container {
+  /*=============== DESIGN PROCESS ===============*/
 }
 .container .processFlow {
   background-color: #FFFFFF;
@@ -1961,6 +1986,9 @@ html {
 }
 .container .designProcess img {
   width: 100%;
+}
+.container {
+  /*=============== RESEARCH SECTION ===============*/
 }
 .container .initialResearchSection {
   background-color: #F3F7FF;
@@ -2022,6 +2050,9 @@ html {
   text-align: center;
   text-align: justify;
 }
+.container {
+  /*=============== COMPETETIVE ANALYSIS ===============*/
+}
 .container .competitiveAnalysisSection {
   background-color: #FFFFFF;
 }
@@ -2031,8 +2062,14 @@ html {
   padding: 140px 320px;
   gap: 40px;
 }
+.container {
+  /*=============== USER PERSONA ===============*/
+}
 .container .userPersonaSection {
   background-color: #F3F7FF;
+}
+.container {
+  /*=============== WIREFRAME ===============*/
 }
 .container .wireframeSection {
   background-color: #FFFFFF;
@@ -2047,6 +2084,9 @@ html {
 .container .wireFrame img {
   width: 50%;
 }
+.container {
+  /*=============== STYLE GUIDE ===============*/
+}
 .container .styleGuideSection {
   background-color: #F3F7FF;
 }
@@ -2056,8 +2096,14 @@ html {
   padding: 140px 320px;
   gap: 40px;
 }
+.container {
+  /*=============== MOCKUP ===============*/
+}
 .container .mockupSection {
   background-color: #FFFFFF;
+}
+.container {
+  /*=============== LINK TO FIGMA ===============*/
 }
 .container .figmaLinkSection {
   background-color: #F3F7FF;
@@ -2082,6 +2128,9 @@ html {
 .container .figmaLinkSection .figmaLink a :hover {
   font-weight: 600;
 }
+.container {
+  /*=============== KEY TAKEAWAY ===============*/
+}
 .container .keyTakeaway {
   background-color: #FFFFFF;
   display: flex;
@@ -2091,6 +2140,9 @@ html {
 }
 .container .keyTakeaway ul {
   padding-left: 16px;
+}
+.container {
+  /*=============== CONTACT ===============*/
 }
 .container .contactMe {
   display: flex;
@@ -2119,22 +2171,10 @@ html {
 /*=============== Responsive CaseStudy ===============*/
 .container {
   /* For small devices */
-  /* For small screens devices */
-  /* For laptop screens devices */
-  /* For large devices */
 }
 @media screen and (max-width: 768px) {
   .container {
     /*=============== OVERVIEW ===============*/
-    /*=============== CONTEXT ===============*/
-    /*=============== DESIGN PROCESS ===============*/
-    /*=============== RESEARCH SECTION ===============*/
-    /*=============== COMPETETIVE ANALYSIS ===============*/
-    /*=============== Wireframes ===============*/
-    /*=============== STYLE GUIDE ===============*/
-    /*=============== LINK TO FIGMA ===============*/
-    /*=============== KEY TAKEAWAY ===============*/
-    /*=============== CONTACT ===============*/
   }
   .container .overviewSection {
     display: flex;
@@ -2182,7 +2222,7 @@ html {
     gap: 8px;
   }
   .container .projectContent .projectOverview .overview .showProject a h6 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Figtree", sans-serif;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
@@ -2200,6 +2240,9 @@ html {
     transform: translateX(0.25rem);
     color: #7F63B9;
   }
+  .container {
+    /*=============== CONTEXT ===============*/
+  }
   .container .context {
     background-color: #F3F7FF;
   }
@@ -2209,6 +2252,9 @@ html {
     padding: 80px 20px;
     gap: 40px;
   }
+  .container {
+    /*=============== DESIGN PROCESS ===============*/
+  }
   .container .designProcess {
     display: flex;
     flex-direction: column;
@@ -2217,6 +2263,9 @@ html {
   }
   .container .designProcess img {
     width: 100%;
+  }
+  .container {
+    /*=============== RESEARCH SECTION ===============*/
   }
   .container .initialResearchSection {
     background-color: #F9FAFB;
@@ -2234,6 +2283,9 @@ html {
   .container .initialResearchSection .painPointsFlow .painPoint {
     width: 100%;
   }
+  .container {
+    /*=============== COMPETETIVE ANALYSIS ===============*/
+  }
   .container .competetiveAnalysis {
     display: flex;
     flex-direction: column;
@@ -2243,6 +2295,9 @@ html {
   .container .competetiveAnalysis img {
     width: 100%;
   }
+  .container {
+    /*=============== Wireframes ===============*/
+  }
   .container .wireFrame {
     padding: 80px 20px;
     gap: 40px;
@@ -2250,6 +2305,9 @@ html {
   }
   .container .wireFrame img {
     width: 80%;
+  }
+  .container {
+    /*=============== STYLE GUIDE ===============*/
   }
   .container .styleGuideSection {
     background-color: #F3F7FF;
@@ -2260,11 +2318,17 @@ html {
     padding: 80px 20px;
     gap: 40px;
   }
+  .container {
+    /*=============== LINK TO FIGMA ===============*/
+  }
   .container .figmaLinkSection .figmaLink {
     padding: 80px 20px;
   }
   .container .figmaLinkSection .figmaLink p {
     text-align: center;
+  }
+  .container {
+    /*=============== KEY TAKEAWAY ===============*/
   }
   .container .keyTakeaway {
     display: flex;
@@ -2275,6 +2339,9 @@ html {
   .container .keyTakeaway ul {
     padding-left: 16px;
   }
+  .container {
+    /*=============== CONTACT ===============*/
+  }
   .container .contactMe {
     padding: 80px 20px;
     gap: 20px;
@@ -2282,4 +2349,13 @@ html {
   .container .contactMe .messageMe {
     gap: 4px;
   }
+}
+.container {
+  /* For small screens devices */
+}
+.container {
+  /* For laptop screens devices */
+}
+.container {
+  /* For large devices */
 }/*# sourceMappingURL=main.css.map */
